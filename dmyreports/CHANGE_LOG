@@ -1,0 +1,10 @@
+Version 0.3 - 18/10/2007
+------------------------------------------------------------------
+
+- The application is fully compatible with Firefox, IE and Opera.
+- The excel export generates a formated report.
+- An error generated when report conditions are modified have been corrected
+- If a table is deleted which is required for generating a report, a meaningful error message is now generated.
+- If only one table is specified in the config file, the select table screen will be skipped.
+- If an invalid table name is specified in the config file, "Table not found" error will be displayed.
+- The User Interface has been redesigned to make the application more userfriendly.

@@ -1,0 +1,210 @@
+<!-- Exspeedite Driver Manifest Template v 2.0
+	
+	You can make a copy of this template so it does not get overwritten next release you install.
+	
+	Be sure to change the option email/EMAIL_MANIFEST_TEMPLATE to point to the template you are using.
+	
+	Keywords are inside %% and include
+
+	COMPANY_LOGO	- url to logo, from company table or setting
+	COMPANY_NAME	- name of company, from company table or setting
+	COMPANY_FAX		- fax number, from company table or setting
+	OFFICE_FAX		- fax number, from office table or setting
+	DRIVER_NAME		- name of driver
+	DRIVER_CELL		- driver cell phone
+	OFFICE_PHONE	- phone number of office, or company number from setting
+	EMERGENCY_PHONE	- emergency/after hours number, from office table or setting
+	OFFICE_EMAIL	- email of office, or company email from setting
+	CURRENT_DATE	- current date mm/dd/yyyy
+	LOAD_CODE		- our reference (Load# or Office#)
+	COMPANY_ADDR	- our adddress (multi-line)
+	CARRIER_ADDR	- carrier address
+	CARRIER_PHONE	- carrier phone
+	OUR_SIG			- our signature (URL)
+	OUR_CONTACT		- our contact name
+	TRACTOR_UNIT	- Tractor unit number
+	TRAILER_UNIT	- Trailer unit number
+	EQUIPMENT		- Required Equipment
+
+-->
+
+<style>
+table.border {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	border-spacing: 0px;
+    border-collapse: separate;
+}
+
+table tr {
+	vertical-align: text-top;
+}
+
+table.border tr td {
+	width: 100%;
+	padding: 4px;
+}
+
+table.noborder {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0px;
+	border-spacing: 0px;
+    border-collapse: separate;
+}
+
+table.noborder thead tr {
+	background-color: #4d8e31;
+	color: #fff;
+}
+
+table.noborder tr th.w33,
+table.noborder tr td.w33 {
+	width: 33%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w50,
+table.noborder tr td.w50 {
+	width: 50%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w25,
+table.noborder tr td.w25 {
+	width: 25%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w15,
+table.noborder tr td.w15 {
+	width: 15%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w10,
+table.noborder tr td.w10 {
+	width: 10%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+h3.manifest,
+h4.manifest {
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+span.manifest {
+	font-size: 24px;
+	line-height: 2;
+	font-weight: 700;
+}
+
+th.text-right,
+td.text-right {
+	text-align: right;
+}
+
+th.text-center,
+td.text-center {
+	text-align: center;
+}
+
+p.invoice_date {
+	text-align: right;
+	padding: 5px;
+}
+
+img.left {
+	float: left;
+}
+
+.hazmat {
+  background-color: #ffff00;
+}
+
+</style>
+
+<h3 class="manifest"><img src="%COMPANY_LOGO%" class="left" alt="logo">%COMPANY_NAME%</h3>
+	<h4 class="manifest">Driver Manifest</h4>
+	<br>
+	
+	<table class="noborder">
+	<tr valign="top">
+		<td class="w33">
+			Date: %CURRENT_DATE%
+		</td>
+		<td class="w33">
+		</td>
+		<td class="w33 text-right">
+			Our Reference #: <span class="manifest">%LOAD_CODE%</span>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<hr>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td class="w33">
+			Office<br>
+			<strong>%COMPANY_NAME%</strong><br>
+			%COMPANY_ADDR%
+		</td>
+		<td class="w33">
+		</td>
+		<td class="w33">
+			<table class="noborder">
+				<tr>
+					<td>Driver:<br>Cell:</td>
+					<td><strong>%DRIVER_NAME%</strong><br><strong>%DRIVER_CELL%</strong></td>
+				</tr>
+				<tr>
+					<td>Tractor:</td>
+					<td><strong>%TRACTOR_UNIT%</strong></td>
+				</tr>
+				<tr>
+					<td>Trailer:</td>
+					<td><strong>%TRAILER_UNIT%</strong></td>
+				</tr>
+				<tr>
+					<td>Equipment:</td>
+					<td><strong>%EQUIPMENT%</strong></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+	<br>
+	
+%STOPS_GO_HERE%
+
+<hr>
+<p>Please call <strong>%OFFICE_PHONE%</strong> for Dispatch.
+contact our customers. Night emergency number <strong>%EMERGENCY_PHONE%</strong>.</p>
+<hr>
+<ul>
+<li>Product is to be counted before signing the Bill of Lading for pickup & delivery. Must report any
+Shortages/Overage Immediately.</li>
+<li>Driver must call if there is any unloading or loading required.</li>
+<li>NO Double Brokering allowed & will not be paid.</li>
+<li>Damaged product (CALL IMMEDIATELY) must be noted on B/Land signed by customer/consignee
+for payment.</li>
+<li>Detention (CALL IMMEDIATELY) No detention to be paid for late pickup or delivery.</li>
+<li>Missing scheduled appointment times will be subject to actual fines imposed with a minimum of $50.00.</li>
+<li>No idling at any facilities. In the event of any fines imposed your company will be held responsible.</li>
+</ul>
+
+</td>
+</tr>
+</table>

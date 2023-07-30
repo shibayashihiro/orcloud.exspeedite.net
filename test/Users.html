@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://strongtco.dyndns.org:2378/" />
+<title>Users</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Users</td></tr>
+</thead><tbody>
+<!--This is a simple script-->
+<tr>
+	<td>open</td>
+	<td>/exspeedite/exp_login.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Sign In</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=username</td>
+	<td>duncan</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Welcome to Exspeedite</td>
+	<td></td>
+</tr>
+<!---->
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//li/a/span[text()=&quot;Users&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Users</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add User</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Add User</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=USERNAME</td>
+	<td>testuser</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=FULLNAME</td>
+	<td>Test User</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=EMAIL</td>
+	<td>test@strongtco.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.switch-right.switch-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.has-switch.switch-off &gt; div &gt; span.switch-right.switch-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.has-switch.switch-off &gt; div &gt; span.switch-right.switch-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form[@id='adduser']/div[5]/div/div[4]/div/label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Users</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#testuser1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Edit User</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form[@id='edituser']/div[5]/div/div[3]/div/label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Users</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>css=#testuser2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#testuser2_confirm</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Users</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Sign In</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

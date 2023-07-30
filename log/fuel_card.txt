@@ -1,0 +1,312 @@
+01/25/2022 01:15:10 PM pid=8 msg=sts_card_transport::client_open: Get info for client Comdata
+
+01/25/2022 01:15:10 PM pid=8 msg=/var/www/html/exp_list_card_ftp.php: Error: transport is not FTP
+
+01/25/2022 01:15:19 PM pid=11 msg=sts_card::resolve: resolve 681406 => 75, result = true
+
+01/25/2022 01:15:21 PM pid=12 msg=sts_card::resolve: resolve 277935 => 63, result = true
+
+01/25/2022 01:15:23 PM pid=8 msg=sts_card::resolve: resolve 277934 => 61, result = true
+
+01/25/2022 01:15:24 PM pid=11 msg=sts_card::resolve: resolve 274807 => 71, result = true
+
+01/25/2022 01:17:20 PM pid=144 msg=sts_card::resolve_advance: resolve 39, , 1316010010 => 188, result = true
+
+01/25/2022 01:17:26 PM pid=11 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+01/25/2022 01:17:26 PM pid=11 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+01/25/2022 01:21:27 PM pid=10 msg=sts_card_transport::client_open: Get info for client Comdata
+
+01/25/2022 01:21:27 PM pid=10 msg=/var/www/html/exp_list_card_ftp.php: Error: transport is not FTP
+
+01/25/2022 01:21:30 PM pid=12 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+01/25/2022 01:21:30 PM pid=12 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+01/25/2022 01:22:53 PM pid=144 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+01/25/2022 01:23:01 PM pid=8 msg=sts_card_transport::client_open: Get info for client Test2
+
+01/25/2022 01:23:01 PM pid=8 msg=/var/www/html/exp_list_card_ftp.php: Error: transport is not FTP
+
+01/25/2022 04:13:51 PM pid=10 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+01/25/2022 04:13:51 PM pid=10 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+01/25/2022 04:14:03 PM pid=12 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+01/25/2022 04:14:03 PM pid=12 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+01/25/2022 04:14:09 PM pid=11 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+01/25/2022 04:14:09 PM pid=11 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+01/26/2022 12:18:53 PM pid=10 msg=sts_card_transport::client_open: Get info for client Comdata
+
+01/26/2022 12:18:53 PM pid=10 msg=/var/www/html/exp_list_card_ftp.php: Error: transport is not FTP
+
+01/26/2022 12:19:27 PM pid=14 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+01/26/2022 12:19:54 PM pid=11 msg=sts_card_transport::client_open: Get info for client Comdata
+
+01/26/2022 12:19:54 PM pid=11 msg=sts_card_ftp::ftp_connect: Connect to client Comdata
+
+01/26/2022 12:19:54 PM pid=11 msg=sts_card_ftp::ftp_connect: ftp_connect: Unable to connect to https://apps.tchek.com/tchekmain/default.asp port 21<br>Exspeedite couldn't map the server name <strong>https://apps.tchek.com/tchekmain/default.asp</strong> to an IP address, which means it probably doesn't exist.<br>
+
+01/26/2022 12:26:59 PM pid=11 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+01/26/2022 12:27:07 PM pid=10 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+01/26/2022 12:27:25 PM pid=14 msg=sts_card_transport::client_open: Get info for client Fleetone
+
+01/26/2022 12:27:25 PM pid=14 msg=sts_card_ftp::ftp_connect: Connect to client Fleetone
+
+01/26/2022 12:27:25 PM pid=14 msg=sts_card_ftp::ftp_connect: Connected, return 23 entries.
+
+01/26/2022 12:27:31 PM pid=13 msg=sts_card_transport::client_open: Get info for client Fleetone
+
+01/26/2022 12:27:31 PM pid=13 msg=sts_card_ftp::ftp_connect: Connect to client Fleetone
+
+01/26/2022 12:27:31 PM pid=13 msg=sts_card_ftp::ftp_connect: Connected, return 23 entries.
+
+01/26/2022 12:27:31 PM pid=13 msg=sts_card_ftp::ftp_get_contents: Get 20220104.fle, delete=false
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_ftp::ftp_get_contents: Return 2310 bytes.
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_comdata::parse: entry, 2310 characters
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_comdata::parse: exit, 6 tokens
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_comdata::import: entry, origin Fleetone 6 tokens
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_comdata::import: line=1 type=detail
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_comdata::import: add IFTA Array
+(
+    [IFTA_DATE] => 2022-01-03
+    [CD_TRANS] => 90891
+    [CD_UNIT] => 183
+    [IFTA_TRACTOR] => 0
+    [CD_STOP_NAME] => SKY CITY TRAVEL
+    [CD_STOP_CITY] => PUEBLO OF AC
+    [CD_ORIGIN] => Fleetone
+    [IFTA_JURISDICTION] => NM
+    [FUEL_PURCHASED] => 176.56
+    [CD_TRACTOR_PPG] => 3.579
+    [CD_REEFER_GAL] => 0
+    [CD_REEFER_PPG] => 0
+    [CD_DRIVER] => 
+    [CD_EMPLOYEE_NUM] => 
+    [CD_CARD_NUM] => 1826430017
+    [CD_HUB] => 391030
+    [CD_PREV_HUB] => 0
+    [CD_TRAILER] => 
+)
+
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_comdata::import: line=2 type=detail
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_comdata::import: add IFTA Array
+(
+    [IFTA_DATE] => 2022-01-03
+    [CD_TRANS] => 23963
+    [CD_UNIT] => 185
+    [IFTA_TRACTOR] => 0
+    [CD_STOP_NAME] => ERNIES FUEL STO
+    [CD_STOP_CITY] => KENT
+    [CD_ORIGIN] => Fleetone
+    [IFTA_JURISDICTION] => WA
+    [FUEL_PURCHASED] => 200
+    [CD_TRACTOR_PPG] => 3.939
+    [CD_REEFER_GAL] => 0
+    [CD_REEFER_PPG] => 0
+    [CD_DRIVER] => Kendan
+    [CD_EMPLOYEE_NUM] => 021
+    [CD_CARD_NUM] => 1826430016
+    [CD_HUB] => 322989
+    [CD_PREV_HUB] => 0
+    [CD_TRAILER] => 
+)
+
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_comdata::import: line=3 type=detail
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_comdata::import: add IFTA Array
+(
+    [IFTA_DATE] => 2022-01-03
+    [CD_TRANS] => 95968
+    [CD_UNIT] => 1611
+    [IFTA_TRACTOR] => 0
+    [CD_STOP_NAME] => TA BARSTOW
+    [CD_STOP_CITY] => BARSTOW
+    [CD_ORIGIN] => Fleetone
+    [IFTA_JURISDICTION] => CA
+    [FUEL_PURCHASED] => 50
+    [CD_TRACTOR_PPG] => 4.699
+    [CD_REEFER_GAL] => 0
+    [CD_REEFER_PPG] => 0
+    [CD_DRIVER] => 
+    [CD_EMPLOYEE_NUM] => 313
+    [CD_CARD_NUM] => 1826430019
+    [CD_HUB] => 9
+    [CD_PREV_HUB] => 0
+    [CD_TRAILER] => 
+)
+
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_comdata::import: line=4 type=totals
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_comdata::import: line=5 type=totals
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_comdata::import: line=6 type=totals
+
+01/26/2022 12:27:35 PM pid=13 msg=sts_card_comdata::import: exit, return true
+	IFTA import/error/duplicate = 3/0/0 ADVANCE import/error/duplicate = 0/0/0
+
+01/26/2022 12:27:44 PM pid=9 msg=sts_card::resolve: resolve 183 => 30, result = true
+
+01/26/2022 12:27:46 PM pid=10 msg=sts_card::resolve: resolve 185 => 73, result = true
+
+01/26/2022 12:27:47 PM pid=13 msg=sts_card::resolve: resolve 1611 => 6, result = true
+
+01/26/2022 12:27:53 PM pid=10 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+01/26/2022 12:28:02 PM pid=14 msg=sts_card_transport::client_open: Get info for client Fleetone
+
+01/26/2022 12:28:02 PM pid=14 msg=sts_card_ftp::ftp_connect: Connect to client Fleetone
+
+01/26/2022 12:28:03 PM pid=14 msg=sts_card_ftp::ftp_connect: Connected, return 23 entries.
+
+06/13/2022 05:05:27 PM pid=9 msg=sts_card_transport::client_open: Get info for client Fleetone
+
+06/13/2022 05:05:27 PM pid=9 msg=sts_card_ftp::ftp_connect: Connect to client Fleetone
+
+06/13/2022 05:05:28 PM pid=9 msg=sts_card_ftp::ftp_connect: Connected, return 0 entries.
+
+06/13/2022 05:05:33 PM pid=13 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+06/13/2022 05:05:33 PM pid=13 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+06/13/2022 05:05:46 PM pid=8 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+06/13/2022 05:05:46 PM pid=8 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+06/13/2022 05:06:16 PM pid=11 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+06/13/2022 05:06:16 PM pid=11 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+07/06/2022 12:21:44 PM pid=8 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+07/06/2022 12:21:44 PM pid=8 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+07/06/2022 12:21:53 PM pid=12 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+07/06/2022 12:21:53 PM pid=12 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+08/31/2022 02:24:55 PM pid=7 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+08/31/2022 02:24:55 PM pid=7 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+09/01/2022 12:53:50 PM pid=6 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+09/01/2022 12:53:50 PM pid=6 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+09/01/2022 12:54:58 PM pid=8 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+09/01/2022 12:54:58 PM pid=8 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+09/01/2022 12:58:01 PM pid=11 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+09/01/2022 12:58:01 PM pid=11 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+09/01/2022 01:00:56 PM pid=6 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:00:56 PM pid=6 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+09/01/2022 01:06:01 PM pid=9 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:06:01 PM pid=9 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+09/01/2022 01:11:13 PM pid=8 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:11:13 PM pid=8 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+09/01/2022 01:12:44 PM pid=7 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:12:44 PM pid=7 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+09/01/2022 01:13:05 PM pid=9 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:13:14 PM pid=12 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:13:49 PM pid=11 msg=sts_card_ftp::ftp_browse: Connect to client 4, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:13:49 PM pid=11 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>ftp.badeconomy.ca</strong> port <strong>21</strong>
+
+09/01/2022 01:17:08 PM pid=10 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:17:08 PM pid=10 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+09/01/2022 01:17:17 PM pid=9 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:19:33 PM pid=12 msg=sts_card_ftp::ftp_browse: Connect to client 4, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:19:33 PM pid=12 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>ftp.badeconomy.ca</strong> port <strong>21</strong>
+
+09/01/2022 01:19:45 PM pid=8 msg=sts_card_transport::client_open: Get info for client Test3
+
+09/01/2022 01:19:45 PM pid=8 msg=/var/www/domains/orcloud.exspeedite.net/htdocs/exp_list_card_ftp.php: Error: transport is not FTP
+
+09/01/2022 01:38:14 PM pid=11 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:38:48 PM pid=12 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:38:57 PM pid=11 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:39:05 PM pid=9 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:39:10 PM pid=12 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:42:34 PM pid=9 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:43:09 PM pid=12 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:43:23 PM pid=11 msg=sts_card_transport::client_open: Get info for client Fleetone
+
+09/01/2022 01:43:23 PM pid=11 msg=sts_card_ftp::ftp_connect: Connect to client Fleetone
+
+09/01/2022 01:43:23 PM pid=11 msg=sts_card_ftp::ftp_connect: Connected, return 1 entries.
+
+09/01/2022 01:43:29 PM pid=7 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:43:38 PM pid=10 msg=sts_card_ftp::ftp_browse: Connect to client 3, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:43:42 PM pid=12 msg=sts_card_transport::client_open: Get info for client Fleetone
+
+09/01/2022 01:43:42 PM pid=12 msg=sts_card_ftp::ftp_connect: Connect to client Fleetone
+
+09/01/2022 01:43:42 PM pid=12 msg=sts_card_ftp::ftp_connect: Connected, return 1 entries.
+
+09/01/2022 01:43:42 PM pid=12 msg=sts_card_ftp::ftp_get_contents: Get htop.png, delete=false
+
+09/01/2022 01:43:47 PM pid=12 msg=sts_card_ftp::ftp_get_contents: Return 161298 bytes.
+
+09/01/2022 01:43:47 PM pid=12 msg=sts_card_comdata::parse: entry, 161298 characters
+
+09/01/2022 01:44:22 PM pid=8 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:44:22 PM pid=8 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+09/01/2022 01:44:40 PM pid=7 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:44:40 PM pid=7 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+09/01/2022 01:45:14 PM pid=10 msg=sts_card_ftp::ftp_browse: Connect to client 1, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:45:14 PM pid=10 msg=sts_card_ftp::ftp_browse: ftp_connect: Unable to connect to <strong>https://apps.tchek.com/tchekmain/default.asp</strong> port <strong>21</strong>
+
+09/01/2022 01:48:04 PM pid=11 msg=sts_card_ftp::ftp_browse: Connect to client 8, url exp_browse_card_ftp.php, path /
+
+09/01/2022 01:50:26 PM pid=9 msg=sts_card_ftp::ftp_browse: Connect to client 8, url exp_browse_card_ftp.php, path /
+

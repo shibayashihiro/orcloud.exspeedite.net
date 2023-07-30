@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://strongtco.dyndns.org:2378/" />
+<title>Profiles</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Profiles</td></tr>
+</thead><tbody>
+<!--This is a simple script-->
+<tr>
+	<td>open</td>
+	<td>/exspeedite/exp_login.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Sign In</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=username</td>
+	<td>duncan</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Welcome to Exspeedite</td>
+	<td></td>
+</tr>
+<!---->
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.col-xs-6.col-sm-3 &gt; a &gt; img.center-block</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Carriers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Carrier</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Add Carrier</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Cancel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Carriers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Edit Carrier</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>Edit Carrier Save Changes Back to Carriers</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Back to Carriers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Carriers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Profiles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//li[6]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Clients</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Client</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Add Client</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>Add Client Save Changes Cancel</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Cancel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Clients</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Profiles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//li[2]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Drivers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>id=SHOW_DELETED_EXP_DRIVER</td>
+	<td>label=deleted</td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Drivers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>id=SHOW_DELETED_EXP_DRIVER</td>
+	<td>label=not deleted</td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Drivers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>id=SHOW_ACTIVE_EXP_DRIVER</td>
+	<td>label=inactive</td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Drivers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>id=SHOW_ACTIVE_EXP_DRIVER</td>
+	<td>label=active</td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Drivers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Driver</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Add Driver</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>Add Driver Save Changes Cancel</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Cancel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Drivers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Sign In</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

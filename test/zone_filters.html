@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://strongtco.dyndns.org:2378/exspeedite/" />
+<title>zone_filters</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">zone_filters</td></tr>
+</thead><tbody>
+<!--This is a simple script-->
+<tr>
+	<td>open</td>
+	<td>/exspeedite/exp_login.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Sign In</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=username</td>
+	<td>duncan</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Welcome to Exspeedite</td>
+	<td></td>
+</tr>
+<!---->
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='admin']/div/div[7]/a/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Zone Filters</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Zone Filter</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Add Zone Filter</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=NAME</td>
+	<td>TEST_ZONE</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=STATE</td>
+	<td>label=WA - Washington</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ADDSTATE</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=STATE</td>
+	<td>label=OR - Oregon</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ADDSTATE</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=STATE</td>
+	<td>label=ID - Idaho</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ADDSTATE</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=SAVE_BUTTON</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Zone Filters</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>css=#TEST_ZONE2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=TEST_ZONE2_confirm</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - List Zone Filters</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Exspeedite - Sign In</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

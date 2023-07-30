@@ -1,0 +1,17 @@
+INSTALLATION
+------------
+
+1. Restore the MySQL database in the "dbBackup" folder.
+
+2. Modify the "config.php" in the "includes" folder as required.
+
+Thatz it!!!
+
+If you come accross any errors, please email me at netbuglk@gmail.com
+
+Thanks for trying out DMYReports.
+
+-------------------------------------------------------------------------
+Special thanks goes out to Yuriy Demchenko for his contribution to this project and to everyone else for their support in sending me comments and bug reports.
+
+Thanks to the Tango Desktop Project for providing such a beautiful set of Icons.

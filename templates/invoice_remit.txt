@@ -1,0 +1,173 @@
+<!-- Exspeedite Invoice Template v 1.0 remit
+	
+	You can make a copy of this template so it does not get overwritten next release you install.
+	
+	Be sure to change the option email/EMAIL_INVOICE_TEMPLATE to point to the template you are using.
+	
+	Keywords are inside %% and include:
+	
+	(Before CONSOLIDATE_START)
+
+		CURRENT_DATE	- current date mm/dd/yyyy
+		INVOICE_DATE	- invoice date mm/dd/yyyy
+		SHIPMENT_CODE	- our reference (Shipment# or Office#)
+		TERMS			- Invoice terms
+		COMPANY_LOGO	- url to logo, from office, company or setting
+		COMPANY_NAME	- name of company, from company table or setting
+		COMPANY_ADDR	- our adddress (multi-line)
+		COMPANY_PHONE	- company phone, from company table or setting
+		COMPANY_FAX		- fax number, from company table or setting
+		COMPANY_EMAIL	- company email, from company table or setting
+		BILL_TO			- Bill to address
+		
+		REMIT_TO		- Remit to address
+
+	(After CONSOLIDATE_START, before CONSOLIDATE_END, repeats for each shipment)
+	
+		SHIPMENT_CODE	- our reference (Shipment# or Office#)
+		SHIPPER			- Shipper
+		CONSIGNEE		- Consignee
+		CUSTOMS_BROKER	- broker info
+		PICKUP_DATE		- Pickup date (actual or due) mm/dd/yyyy
+		DELIVER_DATE	- Delivery date (actual or due) mm/dd/yyyy
+		PICKUP_NUMBER	- Pickup number
+		EQUIPMENT		- Required Equipment
+		
+		DETAILS_GO_HERE	- Shipment details/commodities
+	
+	(After CONSOLIDATE_END)
+	
+		BILLING_GO_HERE - Billing details
+-->
+	
+<table width="98%" align="center" border="2" cellspacing="0">
+	<tr valign="top">
+		<td width="100%">
+
+			<table width="98%" align="center" border="0" cellspacing="0">
+				<tr valign="top">
+					<td>
+						<img src="%COMPANY_LOGO%" style="padding: 5px;">
+					</td>
+					<td>
+						<p style="margin-top: 10px;"><strong>%COMPANY_NAME%</strong><br>
+						%COMPANY_ADDR%<br>
+						Phone: %COMPANY_PHONE%<br>
+						Fax: %COMPANY_FAX%</p>
+					</td>
+					<td>
+						<h3 style="text-align: right; margin-bottom: 0px; margin-top: 10px;">INVOICE# %SHIPMENT_CODE%</h3>
+						<p style="text-align: right; style="padding: 5px;">Date: %INVOICE_DATE%</p>
+					</td>
+				</tr>
+			</table>
+			
+			<br>
+			
+			<table width="98%" align="center" border="0" cellspacing="0">
+				<tr valign="top" style="background-color: #4d8e31; color: #fff;">
+					<th width="33%" style="padding: 5px;">
+						BILL TO:
+					</th>
+					<th width="33%" style="padding: 5px;">
+						TERMS:
+					</th>
+					<th width="33%" style="padding: 5px;">
+						REMIT TO:
+					</th>
+				</tr>
+				<tr valign="top">
+					<td width="33%" style="padding: 5px;">
+						%BILL_TO%
+					</td>
+					<td width="33%" style="padding: 5px;">
+						%TERMS%
+					</td>
+					<td width="33%" style="padding: 5px;">
+						%REMIT_TO%
+					</td>
+				</tr>
+			</table>
+				
+			<br>
+				
+			<!-- CONSOLIDATE_START -->
+			<table width="98%" align="center" border="2" cellspacing="0">
+				<tr valign="top">
+					<td width="100%">
+						<h3 style="text-align: right; padding-right: 10px; margin-bottom: 0px; margin-top: 10px;">SHIPMENT# %SHIPMENT_CODE%</h3>
+						<table width="98%" align="center" border="0" cellspacing="0">
+							<tr valign="top" style="background-color: #4d8e31; color: #fff;">
+								<th width="33%" style="padding: 5px;">
+									SHIPPER:
+								</th>
+								<th width="33%" style="padding: 5px;">
+									CONSIGNEE:
+								</th>
+								<th width="33%" style="padding: 5px;">
+									CUSTOMS BROKER:
+								</th>
+							</tr>
+							<tr valign="top">
+								<td width="33%" style="padding: 5px;">
+									%SHIPPER%
+								</td>
+								<td width="33%" style="padding: 5px;">
+									%CONSIGNEE%
+								</td>
+								<td width="33%" style="padding: 5px;">
+									%CUSTOMS_BROKER%
+								</td>
+							</tr>
+						</table>
+							
+						<br>
+							
+						<table width="98%" align="center" border="0" cellspacing="0">
+							<tr valign="top" style="background-color: #4d8e31; color: #fff;">
+								<th width="25%" style="padding: 5px;">
+									PICKUP
+								</th>
+								<th width="25%" style="padding: 5px;">
+									DELIVERY
+								</th>
+								<th width="25%" style="padding: 5px;">
+									PICKUP NUMBER
+								</th>
+								<th width="25%" style="padding: 5px;">
+									EQUIPMENT
+								</th>
+							</tr>
+							<tr valign="top">
+								<td width="25%" style="padding: 5px;">
+									%PICKUP_DATE%
+								</td>
+								<td width="25%" style="padding: 5px;">
+									%DELIVER_DATE%
+								</td>
+								<td width="25%" style="padding: 5px;">
+									%PICKUP_NUMBER%
+								</td>
+								<td width="25%" style="padding: 5px;">
+									%EQUIPMENT%
+								</td>
+							</tr>
+						</table>
+							
+						<br>
+							
+						%DETAILS_GO_HERE%
+					</td>
+				</tr>
+			</table>
+			
+			<br>
+			<!-- CONSOLIDATE_END -->
+			
+			<h3 style="text-align: right; padding-right: 10px; margin-bottom: 0px; margin-top: 10px;">BILLING DETAILS</h3>
+			%BILLING_GO_HERE%
+				
+		</td>
+	</tr>
+</table>
+<center><p>Delivered by <a href="http://www.exspeedite.com/" target="_blank">Exspeedite&reg;</a></p></center>

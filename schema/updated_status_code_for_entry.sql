@@ -1,0 +1,3 @@
+
+UPDATE exp_status_codes SET PREVIOUS = '10,29'
+WHERE STATUS_CODES_CODE = 9

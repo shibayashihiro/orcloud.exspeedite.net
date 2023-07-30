@@ -1,0 +1,6 @@
+{
+	"_comment": "Configuration, will vary depending upon Exspeedite installation",
+	"startUrl" : "http://thefutureisnow.biz/exp_login.php",
+	"userName" : "duncan",
+	"userPw" : "test"
+}

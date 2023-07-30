@@ -1,0 +1,12 @@
+<html><head><title>403 Permission Denied</title></head>
+<body bgcolor=white>
+<h1>403 Permission Denied</h1>
+
+<p>You do not have permission for this request <!--#echo var="REQUEST_URI" --><p>
+
+<p>Your IP address (<!--#echo var="REMOTE_ADDR" -->), GPS coordinates (N38 53.86205 W77 2.19162) and 
+your shoe size (10) have been sent to the <strong>FBI Cyber Anti Crime Unit</strong>.<p>
+
+<p>If you believe you should have access, please provide your IP address (<!--#echo var="REMOTE_ADDR" -->) to <strong>Duncan</strong> or <strong>Scott</strong>.</p>
+
+</body></html>

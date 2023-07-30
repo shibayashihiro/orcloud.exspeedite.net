@@ -1,0 +1,316 @@
+<!-- Exspeedite Invoice Template v 1.2
+	
+	You can make a copy of this template so it does not get overwritten next release you install.
+	
+	Be sure to change the option email/EMAIL_INVOICE_TEMPLATE to point to the template you are using.
+	
+	Keywords are inside %% and include:
+	
+	(Before CONSOLIDATE_START)
+
+		CURRENT_DATE	- current date mm/dd/yyyy
+		INVOICE_DATE	- invoice date mm/dd/yyyy
+		SHIPMENT_CODE	- our reference (Shipment# or Office#)
+		TERMS			- Invoice terms
+		COMPANY_LOGO	- url to logo, from office, company or setting
+		COMPANY_NAME	- name of company, from company table or setting
+		COMPANY_ADDR	- our adddress (multi-line)
+		COMPANY_PHONE	- company phone, from company table or setting
+		COMPANY_FAX		- fax number, from company table or setting
+		COMPANY_EMAIL	- company email, from company table or setting
+		BILL_TO			- Bill to address
+
+	(After CONSOLIDATE_START, before CONSOLIDATE_END, repeats for each shipment)
+	
+		SHIPMENT_CODE	- our reference (Shipment# or Office#)
+		SHIPPER			- Shipper
+		CONSIGNEE		- Consignee
+		CUSTOMS_BROKER	- broker info
+		PICKUP_DATE		- Pickup date (actual or due) mm/dd/yyyy
+		DELIVER_DATE	- Delivery date (actual or due) mm/dd/yyyy
+		PICKUP_NUMBER	- Pickup number
+		ST_NUMBER		- Container number
+		FS_NUMBER		- Check Digit
+		EQUIPMENT		- Required Equipment
+		REF_NUMBER		- Reference number
+		CUSTOMER_NUMBER - Customer number
+
+		DETAILS_GO_HERE	- Shipment details/commodities
+	
+	(After CONSOLIDATE_END)
+	
+		LOAD_CODE				- Load code
+		CARRIER_TOTAL			- Total paid to carrier
+		CARRIER_CURRENCY		- Currency
+		CARRIER_NAME			- Carrier name
+		CARRIER_VENDORID		- Sage50 ID
+		LUMPER_NAME				- Lumper name
+		LUMPER_VENDORID			- Sage50 ID
+		LUMPER_TOTAL			- Total paid to carrier
+		LUMPER_CURRENCY			- Currency
+		CARRIER_CONTACT			- Carrier contact
+		CARRIER_PHONE_OFFICE	- Office number
+		CARRIER_PHONE_EXT		- Extension
+		CARRIER_PHONE_FAX		- Fax number
+		CARRIER_PHONE_CELL		- Cell number
+		CARRIER_EMAIL			- Carrier email
+		
+		BILLING_GO_HERE - Billing details
+-->
+
+<style>
+table.border {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	border-spacing: 0px;
+    border-collapse: separate;
+}
+
+table tr {
+	vertical-align: text-top;
+}
+
+table.border tr td {
+	width: 100%;
+}
+
+table.noborder {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0px;
+	border-spacing: 0px;
+    border-collapse: separate;
+}
+
+table.noborder thead tr {
+	background-color: #4d8e31;
+	color: #fff;
+}
+
+table.noborder tr th.w33,
+table.noborder tr td.w33 {
+	width: 33%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w50,
+table.noborder tr td.w50 {
+	width: 50%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w25,
+table.noborder tr td.w25 {
+	width: 25%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w15,
+table.noborder tr td.w15 {
+	width: 15%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w10,
+table.noborder tr td.w10 {
+	width: 10%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+h3.invoice {
+	text-align: right;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+th.text-right,
+td.text-right {
+	text-align: right;
+}
+
+p.invoice_date {
+	text-align: right;
+	padding: 5px;
+}
+
+</style>
+
+<table class="border">
+	<tr>
+		<td>
+
+			<table class="noborder">
+				<tr>
+					<td class="w33">
+						<img src="%COMPANY_LOGO%" style="padding: 5px;">
+					</td>
+					<td class="w33">
+						<p style="margin-top: 10px;"><strong>%COMPANY_NAME%</strong><br>
+						%COMPANY_ADDR%<br>
+						Phone: %COMPANY_PHONE%<br>
+						Fax: %COMPANY_FAX%</p>
+					</td>
+					<td class="w33">
+						<h3 class="invoice">INVOICE# %SHIPMENT_CODE%</h3>
+						<p class="invoice_date">Date: %INVOICE_DATE%</p>
+					</td>
+				</tr>
+			</table>
+			
+			<br>
+			
+			<table class="noborder">
+			<thead>
+				<tr>
+					<th class="w50">
+						BILL TO:
+					</th>
+					<th class="w50">
+						TERMS:
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="w50">
+						%BILL_TO%
+					</td>
+					<td class="w50">
+						%TERMS%
+					</td>
+				</tr>
+			</tbody>
+			</table>
+				
+			<br>
+				
+			<!-- CONSOLIDATE_START -->
+			<table class="border">
+				<tr>
+					<td>
+						<h3 class="invoice">SHIPMENT# %SHIPMENT_CODE%</h3>
+						<table class="noborder">
+						<thead>
+							<tr>
+								<th class="w33">
+									SHIPPER:
+								</th>
+								<th class="w33">
+									CONSIGNEE:
+								</th>
+								<th class="w33">
+									CUSTOMS BROKER:
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="w33">
+									%SHIPPER%
+								</td>
+								<td class="w33">
+									%CONSIGNEE%
+								</td>
+								<td class="w33">
+									%CUSTOMS_BROKER%
+								</td>
+							</tr>
+						</tbody>
+						</table>
+							
+						<br>
+							
+						<table class="noborder">
+						<thead>
+							<tr>
+								<th class="w25">
+									PICKUP
+								</th>
+								<th class="w25">
+									DELIVERY
+								</th>
+								<th class="w25">
+									CONTAINER
+								</th>
+								<th class="w25">
+									EQUIPMENT
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="w25">
+									%PICKUP_DATE%
+								</td>
+								<td class="w25">
+									%DELIVER_DATE%
+								</td>
+								<td class="w25">
+									%ST_NUMBER%
+								</td>
+								<td class="w25">
+									%EQUIPMENT%
+								</td>
+							</tr>
+						</tbody>
+						</table>
+							
+						<br>
+														
+						<table class="noborder">
+						<thead>
+							<tr>
+								<th class="w25">
+									CUSTOMER#
+								</th>
+								<th class="w25">
+									REFERENCE#
+								</th>
+								<th class="w25">
+								</th>
+								<th class="w25">
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="w25">
+									%CUSTOMER_NUMBER%
+								</td>
+								<td class="w25">
+									%REF_NUMBER%
+								</td>
+								<td class="w25">
+								</td>
+								<td class="w25">
+								</td>
+							</tr>
+						</tbody>
+						</table>
+							
+						<br>
+														
+						%DETAILS_GO_HERE%
+					</td>
+				</tr>
+			</table>
+			
+			<br>
+			<!-- CONSOLIDATE_END -->
+			
+			<h3 class="invoice">BILLING DETAILS</h3>
+			%BILLING_GO_HERE%
+				
+		</td>
+	</tr>
+</table>
+<center><p>Delivered by <a href="http://www.exspeedite.com/" target="_blank">Exspeedite&reg;</a></p></center>

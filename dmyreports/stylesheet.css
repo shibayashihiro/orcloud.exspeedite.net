@@ -1,0 +1,152 @@
+body {
+	margin:0px;
+}
+.tableReports tr td{
+	border: 1px solid #97E6FF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 2px;
+}
+.tableReports tr {
+	color: #666666;
+}
+.tableReports tr:hover {
+	background-color: #B0FFB0;
+	color: #000000;
+}
+.reportNavi tr td{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px solid #00CCFF;
+}
+.tableBorders{
+	border: 1px solid #00CCFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.tableRules {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #00CCFF;
+	padding: 3px;
+}
+.tableHeader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #D2E3FF;
+	font-weight: bold;
+	color: #0066CC;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding: 4px;
+}
+.tableNav {
+	background-color: #EAF2FF;
+	padding-top: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-bottom: 5px;
+}
+.createReport{
+	border: 1px solid #CCCCCC;
+	background-color: #D2E3FF;
+	padding: 2px;
+	font-weight: bold;
+	color: #0066CC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.createReport:hover{
+	background-color: #BDFDBB;
+}
+
+.pageHeader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #006699;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+}
+.statusBar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666666;
+	background-color: #DEF0FA;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #CCCCCC;
+}
+
+.basicData {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	color: #006600;
+}
+a:hover {
+	color: #000000;
+}
+a:visited {
+	color: #999999;
+}
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #006699;
+	border: 1px solid #06D7EE;
+}
+input:hover {
+	background-color: #B0FFB0;
+}
+select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #006699;
+	border: 1px solid #06D7EE;
+}
+form {
+	margin: 0px;
+}
+div {
+	margin: 1px;
+}
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #006699;
+	border: 1px solid #06D7EE;
+}
+textarea:hover {
+	background-color: #B0FFB0;
+}
+.button {
+	background-image: url(images/buttonbg.png);
+	background-repeat: repeat-x;
+	border: 1px solid #ACB1F9;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	height:18px;
+	cursor:hand; cursor:pointer;
+}
+.subHeader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+hr{
+color: #EEEEEE;
+}
+.reportHeading {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #0099FF;
+}

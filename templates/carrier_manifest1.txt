@@ -1,0 +1,232 @@
+<!-- Exspeedite Carrier Manifest Template v 2.0
+	
+	You can make a copy of this template so it does not get overwritten next release you install.
+	
+	Be sure to change the option email/EMAIL_MANIFEST_TEMPLATE to point to the template you are using.
+	
+	Keywords are inside %% and include
+
+	CURRENT_DATE	- current date mm/dd/yyyy
+	LOAD_CODE		- our reference (Load# or Office#)
+
+	COMPANY_LOGO	- url to logo, from company table or setting
+	COMPANY_NAME	- name of company, from company table or setting
+	COMPANY_ADDR	- our adddress (multi-line)
+	COMPANY_PHONE	- company phone, from company table or setting
+	COMPANY_FAX		- fax number, from company table or setting
+	COMPANY_EMAIL	- company email, from company table or setting
+	EMERGENCY_PHONE	- emergency/after hours number, from office table or setting
+
+	OFFICE_FAX		- fax number, from office table or setting
+	OFFICE_PHONE	- phone number of office, or company number from setting
+	OFFICE_EMAIL	- email of office, or company email from setting
+
+	OUR_SIG			- our signature (URL)
+	OUR_CONTACT		- our contact name
+
+	CARRIER_NAME	- name of carrier
+	CARRIER_PAY		- amount of carrier pay (same as CARRIER_BASE)
+	
+	SCR# 449 - enhancements to carrier manifest
+	CARRIER_BASE		-	carrier base pay
+	CARRIER_FSC			-	carrier fuel surcharge
+	CARRIER_HANDLING	-	carrier handling charges
+	CARRIER_TOTAL		-	carrier total
+	
+	CURRENCY		- USD/CAD
+	TERMS			- Terms
+	CARRIER_ADDR	- carrier address
+	CARRIER_PHONE	- carrier phone
+	CARRIER_FAX		- carrier fax
+	CARRIER_EMAIL	- carrier email	
+	CARRIER_CELL	- carrier cell phone
+	
+	CUSTOMS_BROKER	- broker info
+	EQUIPMENT		- Required Equipment
+
+-->
+
+<style>
+table.border {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	border-spacing: 0px;
+    border-collapse: separate;
+}
+
+table tr {
+	vertical-align: text-top;
+}
+
+table.border tr td {
+	width: 100%;
+	padding: 4px;
+}
+
+table.noborder {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0px;
+	border-spacing: 0px;
+    border-collapse: separate;
+}
+
+table.noborder thead tr {
+	background-color: #4d8e31;
+	color: #fff;
+}
+
+table.noborder tr th.w33,
+table.noborder tr td.w33 {
+	width: 33%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w50,
+table.noborder tr td.w50 {
+	width: 50%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w25,
+table.noborder tr td.w25 {
+	width: 25%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w15,
+table.noborder tr td.w15 {
+	width: 15%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w10,
+table.noborder tr td.w10 {
+	width: 10%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+h3.manifest,
+h4.manifest {
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+span.manifest {
+	font-size: 24px;
+	line-height: 2;
+	font-weight: 700;
+}
+
+th.text-right,
+td.text-right {
+	text-align: right;
+}
+
+th.text-center,
+td.text-center {
+	text-align: center;
+}
+
+p.invoice_date {
+	text-align: right;
+	padding: 5px;
+}
+
+img.left {
+	float: left;
+}
+
+.hazmat {
+  background-color: #ffff00;
+}
+
+</style>	
+
+<h3 class="manifest"><img src="%COMPANY_LOGO%" class="left" alt="logo">%COMPANY_NAME%</h3>
+	<h4 class="manifest">Load Confirmation Agreement<br>
+	(Please sign & fax back to us at %OFFICE_FAX%)</h4>
+	<br>
+	
+<table class="noborder">
+	<tr>
+		<td class="w33">
+			Date: %CURRENT_DATE%
+		</td>
+		<td class="w33">
+		</td>
+		<td class="w33 text-right">
+			Our Reference #: <span class="manifest">%LOAD_CODE%</span>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<hr>
+		</td>
+	</tr>
+	<tr>
+		<td class="w33">
+			Accepted By<br>
+			<strong>%CARRIER_NAME%</strong><br>
+			Phone: %CARRIER_PHONE%<br>
+			Cell: %CARRIER_CELL%<br>
+			Fax: %CARRIER_FAX%
+		</td>
+		<td class="w33">
+		</td>
+		<td class="w33">
+			Required Equipment:<br>
+			<strong>%EQUIPMENT%</strong>
+		</td>
+	</tr>
+</table>
+	
+%STOPS_GO_HERE%
+
+%CUSTOMS_BROKER%
+
+<h3>Total Pay To %CARRIER_NAME%: $%CARRIER_PAY% %CURRENCY%</h3>
+
+<br>
+<p>## TEXT HERE ##</p>
+
+<table class="noborder">
+
+	<tr>
+		<td class="w33">
+			Bill To<br>
+			<strong>%COMPANY_NAME%</strong><br>
+			%COMPANY_ADDR%
+			%COMPANY_EMAIL%
+		</td>
+		<td>
+		</td>
+		<td class="w50">
+			<br>
+			<hr>
+			Carrier Signature
+			<br>
+			<br>
+			<hr>
+			Print Name
+			<br>
+			<br>
+			<hr>
+			Date
+		</td>
+	</tr>
+</table>
+
+</td>
+</tr>
+</table>

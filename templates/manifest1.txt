@@ -1,0 +1,123 @@
+<!-- Exspeedite Carrier Manifest Template v 2.0
+	
+	You can make a copy of this template so it does not get overwritten next release you install.
+	
+	Be sure to change the option email/EMAIL_MANIFEST_TEMPLATE to point to the template you are using.
+	
+	Keywords are inside %% and include
+
+	COMPANY_LOGO	- url to logo, from company table or setting
+	COMPANY_NAME	- name of company, from company table or setting
+	COMPANY_FAX		- fax number, from company table or setting
+	OFFICE_FAX		- fax number, from office table or setting
+	CARRIER_NAME	- name of carrier
+	CARRIER_PAY		- amount of carrier pay, may include currency if enabled
+	OFFICE_PHONE	- phone number of office, or company number from setting
+	EMERGENCY_PHONE	- emergency/after hours number, from office table or setting
+	OFFICE_EMAIL	- email of office, or company email from setting
+	
+	New ones:
+	
+	CURRENT_DATE	- current date mm/dd/yyyy
+	LOAD_CODE		- our reference (Load# or Office#)
+	COMPANY_ADDR	- our adddress (multi-line)
+	CARRIER_ADDR	- carrier address
+	CARRIER_PHONE	- carrier phone
+	OUR_SIG			- our signature (URL)
+	OUR_CONTACT		- our contact name
+
+-->
+	
+
+<h3 style="text-align: center;"><img src="%COMPANY_LOGO%" align="left">%COMPANY_NAME%</h3>
+	<h4 style="text-align: center;">Load Confirmation Agreement<br>
+	(Please sign & fax back to us at %OFFICE_FAX%)</h4>
+	<br>
+	
+<table width="90%" align="center" border="0" cellspacing="0">
+	<tr valign="top">
+		<td width="30%">
+			Date: %CURRENT_DATE%
+		</td>
+		<td width="30%">
+		</td>
+		<td width="30%">
+			Our Reference #: <font size="+2"><strong>%LOAD_CODE%</strong></font>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td colspan="3">
+			<hr>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%">
+			Bill To<br>
+			<strong>%COMPANY_NAME%</strong><br>
+			%COMPANY_ADDR%
+		</td>
+		<td width="30%">
+		</td>
+		<td width="30%">
+			Accepted By<br>
+			<strong>%CARRIER_NAME%</strong><br>
+			%CARRIER_ADDR%<br>
+			Phone: %CARRIER_PHONE%
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%">
+			<br>
+			<img src="%OUR_SIG%"><br>
+			%OUR_CONTACT%
+		</td>
+		<td width="30%">
+		</td>
+		<td width="30%">
+			<br>
+			<hr>
+			Carrier Signature
+			<br>
+			<br>
+			<hr>
+			Print Name
+			<br>
+			<br>
+			<hr>
+			Date
+		</td>
+	</tr>
+</table>
+	
+%STOPS_GO_HERE%
+
+<h3>Total Pay To %CARRIER_NAME%: $%CARRIER_PAY%</h3>
+
+<br>
+<p>***All charges Except Lumper fees are Included in the above rate.<br>
+The carrier is responsible for payment of lumper charge upon delivery.<br>
+We will reimburse for lumper charges with Pre-approval and copy of receipt.</p>
+
+<hr>
+<p>Please have Driver call <strong>%OFFICE_PHONE%</strong> for Dispatch. Under no circumstance should dispatchers or drivers
+contact our customers. Night emergency number <strong>%EMERGENCY_PHONE%</strong>.</p>
+<hr>
+<ul>
+<li>Product is to be counted before signing the Bill of Lading for pickup & delivery. Must report any
+Shortages/Overage Immediately.</li>
+<li>Driver must call if there is any unloading or loading required.</li>
+<li>NO Double Brokering allowed & will not be paid.</li>
+<li>Damaged product (CALL IMMEDIATELY) must be noted on B/Land signed by customer/consignee
+for payment.</li>
+<li>Detention (CALL IMMEDIATELY) No detention to be paid for late pickup or delivery.</li>
+<li>Missing scheduled appointment times will be subject to actual fines imposed with a minimum of $50.00.</li>
+<li>No idling at any facilities. In the event of any fines imposed your company will be held responsible.</li>
+</ul>
+
+<hr>
+<p>Payment of Freight Charges require the following Items:<br>
+Signed Original Bill of Lading --------------$25 .00 will be charged if not sent<br>
+Certificates of Insurance. Signed Carrier Agreement. Signed rate Confirmation. W-9 Tax Information</p>
+</td>
+</tr>
+</table>

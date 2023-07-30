@@ -1,0 +1,376 @@
+02/08/2022 08:17:06 PM pid=10 msg=SPAWN_PROCESS: start
+
+02/08/2022 08:17:06 PM pid=10 msg=spawn_process: background_cmd = /usr/bin/php -c /usr/bin /var/www/domains/orcloud.exspeedite.net/htdocs/quickbooks-php-master/online/process_queue.php
+
+02/08/2022 08:18:23 PM pid=10 msg=SPAWN_PROCESS: start
+
+02/08/2022 08:18:23 PM pid=10 msg=spawn_process: background_cmd = /usr/bin/php -c /usr/bin /var/www/domains/orcloud.exspeedite.net/htdocs/quickbooks-php-master/online/process_queue.php
+
+08/20/2022 02:51:04 PM pid=7 msg=oauth: referrer = https://exspeedite.com/exp_handle_qboe.php
+sts_url_prefix = http://strongtco.dyndns.org:2378/exspeedite/
+SERVER = Array
+(
+    [USER] => apache
+    [HOME] => /usr/share/httpd
+    [SCRIPT_NAME] => /quickbooks-php-master/online/oauth.php
+    [REQUEST_URI] => /quickbooks-php-master/online/oauth.php
+    [QUERY_STRING] => 
+    [REQUEST_METHOD] => GET
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REMOTE_PORT] => 42030
+    [SCRIPT_FILENAME] => /var/www/domains/orcloud.exspeedite.net/htdocs/quickbooks-php-master/online/oauth.php
+    [SERVER_ADMIN] => selliott@strongtco.com
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/domains/orcloud.exspeedite.net/htdocs
+    [CONTEXT_PREFIX] => 
+    [REQUEST_SCHEME] => https
+    [DOCUMENT_ROOT] => /var/www/domains/orcloud.exspeedite.net/htdocs
+    [REMOTE_ADDR] => 98.97.9.167
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 10.0.0.250
+    [SERVER_NAME] => orcloud.exspeedite.net
+    [SERVER_SOFTWARE] => Apache/2.4.37 (Oracle Linux) OpenSSL/1.1.1k
+    [SERVER_SIGNATURE] => 
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+    [HTTP_COOKIE] => the_tenant=123456; EXpipco1=n577675735foisuouuf5dmuf5a
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_REFERER] => https://exspeedite.com/exp_handle_qboe.php
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_SITE] => cross-site
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA] => "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_HOST] => orcloud.exspeedite.net
+    [proxy-nokeepalive] => 1
+    [SSL_TLS_SNI] => orcloud.exspeedite.net
+    [HTTPS] => on
+    [UNIQUE_ID] => YwE7KGeAoG1oL4d7tKNewAAAANc
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /quickbooks-php-master/online/oauth.php
+    [REQUEST_TIME_FLOAT] => 1661025064.3401
+    [REQUEST_TIME] => 1661025064
+)
+
+GET = Array
+(
+)
+
+
+08/20/2022 02:54:15 PM pid=8 msg=oauth: referrer = https://exspeedite.com/exp_handle_qboe.php
+sts_url_prefix = http://strongtco.dyndns.org:2378/exspeedite/
+SERVER = Array
+(
+    [USER] => apache
+    [HOME] => /usr/share/httpd
+    [SCRIPT_NAME] => /quickbooks-php-master/online/oauth.php
+    [REQUEST_URI] => /quickbooks-php-master/online/oauth.php
+    [QUERY_STRING] => 
+    [REQUEST_METHOD] => GET
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REMOTE_PORT] => 39202
+    [SCRIPT_FILENAME] => /var/www/domains/orcloud.exspeedite.net/htdocs/quickbooks-php-master/online/oauth.php
+    [SERVER_ADMIN] => selliott@strongtco.com
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/domains/orcloud.exspeedite.net/htdocs
+    [CONTEXT_PREFIX] => 
+    [REQUEST_SCHEME] => https
+    [DOCUMENT_ROOT] => /var/www/domains/orcloud.exspeedite.net/htdocs
+    [REMOTE_ADDR] => 143.244.57.111
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 10.0.0.250
+    [SERVER_NAME] => orcloud.exspeedite.net
+    [SERVER_SOFTWARE] => Apache/2.4.37 (Oracle Linux) OpenSSL/1.1.1k
+    [SERVER_SIGNATURE] => 
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+    [HTTP_COOKIE] => the_tenant=123456; EXpipco1=67q0s0bc2i3skjvu22a4vaag94
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_REFERER] => https://exspeedite.com/exp_handle_qboe.php
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_SITE] => cross-site
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA] => "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_HOST] => orcloud.exspeedite.net
+    [proxy-nokeepalive] => 1
+    [SSL_TLS_SNI] => orcloud.exspeedite.net
+    [HTTPS] => on
+    [UNIQUE_ID] => YwE752eAoG1oL4d7tKNe-QAAAMM
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /quickbooks-php-master/online/oauth.php
+    [REQUEST_TIME_FLOAT] => 1661025255.5253
+    [REQUEST_TIME] => 1661025255
+)
+
+GET = Array
+(
+)
+
+
+08/20/2022 02:55:51 PM pid=7 msg=oauth: referrer = https://exspeedite.com/exp_handle_qboe.php
+sts_url_prefix = http://strongtco.dyndns.org:2378/exspeedite/
+SERVER = Array
+(
+    [USER] => apache
+    [HOME] => /usr/share/httpd
+    [SCRIPT_NAME] => /quickbooks-php-master/online/oauth.php
+    [REQUEST_URI] => /quickbooks-php-master/online/oauth.php
+    [QUERY_STRING] => 
+    [REQUEST_METHOD] => GET
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REMOTE_PORT] => 44840
+    [SCRIPT_FILENAME] => /var/www/domains/orcloud.exspeedite.net/htdocs/quickbooks-php-master/online/oauth.php
+    [SERVER_ADMIN] => selliott@strongtco.com
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/domains/orcloud.exspeedite.net/htdocs
+    [CONTEXT_PREFIX] => 
+    [REQUEST_SCHEME] => https
+    [DOCUMENT_ROOT] => /var/www/domains/orcloud.exspeedite.net/htdocs
+    [REMOTE_ADDR] => 143.244.57.111
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 10.0.0.250
+    [SERVER_NAME] => orcloud.exspeedite.net
+    [SERVER_SOFTWARE] => Apache/2.4.37 (Oracle Linux) OpenSSL/1.1.1k
+    [SERVER_SIGNATURE] => 
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+    [HTTP_COOKIE] => the_tenant=123456; EXpipco1=67q0s0bc2i3skjvu22a4vaag94
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_REFERER] => https://exspeedite.com/exp_handle_qboe.php
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_SITE] => cross-site
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA] => "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_HOST] => orcloud.exspeedite.net
+    [proxy-nokeepalive] => 1
+    [SSL_TLS_SNI] => orcloud.exspeedite.net
+    [HTTPS] => on
+    [UNIQUE_ID] => YwE8R4DNsB9oHNME2mdZlAAAAE4
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /quickbooks-php-master/online/oauth.php
+    [REQUEST_TIME_FLOAT] => 1661025351.3683
+    [REQUEST_TIME] => 1661025351
+)
+
+GET = Array
+(
+)
+
+
+08/20/2022 02:58:26 PM pid=12 msg=oauth: referrer = https://exspeedite.com/exp_handle_qboe.php?code=AB11661025863jtnbkzkoW5l5TiFipbG16v55Ur0knHoaDpupP&state=orcloud%2B6c61862360ad5ce563f07ddd5d5e6dab&realmId=123146056282594
+sts_url_prefix = http://strongtco.dyndns.org:2378/exspeedite/
+SERVER = Array
+(
+    [USER] => apache
+    [HOME] => /usr/share/httpd
+    [SCRIPT_NAME] => /quickbooks-php-master/online/oauth.php
+    [REQUEST_URI] => /quickbooks-php-master/online/oauth.php?state=orcloud%2B6c61862360ad5ce563f07ddd5d5e6dab&code=AB11661025863jtnbkzkoW5l5TiFipbG16v55Ur0knHoaDpupP&realmId=123146056282594
+    [QUERY_STRING] => state=orcloud%2B6c61862360ad5ce563f07ddd5d5e6dab&code=AB11661025863jtnbkzkoW5l5TiFipbG16v55Ur0knHoaDpupP&realmId=123146056282594
+    [REQUEST_METHOD] => GET
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REMOTE_PORT] => 19306
+    [SCRIPT_FILENAME] => /var/www/domains/orcloud.exspeedite.net/htdocs/quickbooks-php-master/online/oauth.php
+    [SERVER_ADMIN] => selliott@strongtco.com
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/domains/orcloud.exspeedite.net/htdocs
+    [CONTEXT_PREFIX] => 
+    [REQUEST_SCHEME] => https
+    [DOCUMENT_ROOT] => /var/www/domains/orcloud.exspeedite.net/htdocs
+    [REMOTE_ADDR] => 143.244.57.111
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 10.0.0.250
+    [SERVER_NAME] => orcloud.exspeedite.net
+    [SERVER_SOFTWARE] => Apache/2.4.37 (Oracle Linux) OpenSSL/1.1.1k
+    [SERVER_SIGNATURE] => 
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+    [HTTP_COOKIE] => the_tenant=123456; EXpipco1=67q0s0bc2i3skjvu22a4vaag94
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_REFERER] => https://exspeedite.com/exp_handle_qboe.php?code=AB11661025863jtnbkzkoW5l5TiFipbG16v55Ur0knHoaDpupP&state=orcloud%2B6c61862360ad5ce563f07ddd5d5e6dab&realmId=123146056282594
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_SITE] => cross-site
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA] => "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_HOST] => orcloud.exspeedite.net
+    [proxy-nokeepalive] => 1
+    [SSL_TLS_SNI] => orcloud.exspeedite.net
+    [HTTPS] => on
+    [UNIQUE_ID] => YwE84oDNsB9oHNME2mdZlQAAAEU
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /quickbooks-php-master/online/oauth.php
+    [REQUEST_TIME_FLOAT] => 1661025506.1846
+    [REQUEST_TIME] => 1661025506
+)
+
+GET = Array
+(
+    [state] => orcloud+6c61862360ad5ce563f07ddd5d5e6dab
+    [code] => AB11661025863jtnbkzkoW5l5TiFipbG16v55Ur0knHoaDpupP
+    [realmId] => 123146056282594
+)
+
+
+08/20/2022 02:58:58 PM pid=9 msg=oauth: referrer = https://exspeedite.com/exp_handle_qboe.php?code=AB11661025896PlWyzWIpyau19gOMz66oF4Ma2CJoEnQT1hhuS&state=orcloud%2Bb495669354884d71197fda1dbf694980&realmId=123146056283389
+sts_url_prefix = http://strongtco.dyndns.org:2378/exspeedite/
+SERVER = Array
+(
+    [USER] => apache
+    [HOME] => /usr/share/httpd
+    [SCRIPT_NAME] => /quickbooks-php-master/online/oauth.php
+    [REQUEST_URI] => /quickbooks-php-master/online/oauth.php?state=orcloud%2Bb495669354884d71197fda1dbf694980&code=AB11661025896PlWyzWIpyau19gOMz66oF4Ma2CJoEnQT1hhuS&realmId=123146056283389
+    [QUERY_STRING] => state=orcloud%2Bb495669354884d71197fda1dbf694980&code=AB11661025896PlWyzWIpyau19gOMz66oF4Ma2CJoEnQT1hhuS&realmId=123146056283389
+    [REQUEST_METHOD] => GET
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REMOTE_PORT] => 46480
+    [SCRIPT_FILENAME] => /var/www/domains/orcloud.exspeedite.net/htdocs/quickbooks-php-master/online/oauth.php
+    [SERVER_ADMIN] => selliott@strongtco.com
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/domains/orcloud.exspeedite.net/htdocs
+    [CONTEXT_PREFIX] => 
+    [REQUEST_SCHEME] => https
+    [DOCUMENT_ROOT] => /var/www/domains/orcloud.exspeedite.net/htdocs
+    [REMOTE_ADDR] => 143.244.57.111
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 10.0.0.250
+    [SERVER_NAME] => orcloud.exspeedite.net
+    [SERVER_SOFTWARE] => Apache/2.4.37 (Oracle Linux) OpenSSL/1.1.1k
+    [SERVER_SIGNATURE] => 
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+    [HTTP_COOKIE] => the_tenant=123456; EXpipco1=67q0s0bc2i3skjvu22a4vaag94
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_REFERER] => https://exspeedite.com/exp_handle_qboe.php?code=AB11661025896PlWyzWIpyau19gOMz66oF4Ma2CJoEnQT1hhuS&state=orcloud%2Bb495669354884d71197fda1dbf694980&realmId=123146056283389
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_SITE] => cross-site
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA] => "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_HOST] => orcloud.exspeedite.net
+    [proxy-nokeepalive] => 1
+    [SSL_TLS_SNI] => orcloud.exspeedite.net
+    [HTTPS] => on
+    [UNIQUE_ID] => YwE9ArwADX1dGvcfZAerzgAAABg
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /quickbooks-php-master/online/oauth.php
+    [REQUEST_TIME_FLOAT] => 1661025538.3428
+    [REQUEST_TIME] => 1661025538
+)
+
+GET = Array
+(
+    [state] => orcloud+b495669354884d71197fda1dbf694980
+    [code] => AB11661025896PlWyzWIpyau19gOMz66oF4Ma2CJoEnQT1hhuS
+    [realmId] => 123146056283389
+)
+
+
+08/20/2022 03:02:49 PM pid=11 msg=oauth: referrer = https://exspeedite.com/exp_handle_qboe.php
+sts_url_prefix = http://strongtco.dyndns.org:2378/exspeedite/
+SERVER = Array
+(
+    [USER] => apache
+    [HOME] => /usr/share/httpd
+    [SCRIPT_NAME] => /quickbooks-php-master/online/oauth.php
+    [REQUEST_URI] => /quickbooks-php-master/online/oauth.php
+    [QUERY_STRING] => 
+    [REQUEST_METHOD] => GET
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REMOTE_PORT] => 22026
+    [SCRIPT_FILENAME] => /var/www/domains/orcloud.exspeedite.net/htdocs/quickbooks-php-master/online/oauth.php
+    [SERVER_ADMIN] => selliott@strongtco.com
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/domains/orcloud.exspeedite.net/htdocs
+    [CONTEXT_PREFIX] => 
+    [REQUEST_SCHEME] => https
+    [DOCUMENT_ROOT] => /var/www/domains/orcloud.exspeedite.net/htdocs
+    [REMOTE_ADDR] => 143.244.57.111
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 10.0.0.250
+    [SERVER_NAME] => orcloud.exspeedite.net
+    [SERVER_SOFTWARE] => Apache/2.4.37 (Oracle Linux) OpenSSL/1.1.1k
+    [SERVER_SIGNATURE] => 
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+    [HTTP_COOKIE] => the_tenant=123456; EXpipco1=67q0s0bc2i3skjvu22a4vaag94
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_REFERER] => https://exspeedite.com/exp_handle_qboe.php
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_SITE] => cross-site
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA] => "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_HOST] => orcloud.exspeedite.net
+    [proxy-nokeepalive] => 1
+    [SSL_TLS_SNI] => orcloud.exspeedite.net
+    [HTTPS] => on
+    [UNIQUE_ID] => YwE96YDNsB9oHNME2mdZlgAAAFM
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /quickbooks-php-master/online/oauth.php
+    [REQUEST_TIME_FLOAT] => 1661025769.6642
+    [REQUEST_TIME] => 1661025769
+)
+
+GET = Array
+(
+)
+
+
+08/20/2022 03:03:56 PM pid=9 msg=importclients: start
+
+08/20/2022 03:03:56 PM pid=9 msg=importclients: 1 customers
+
+08/20/2022 03:04:51 PM pid=11 msg=importclients: start
+
+08/20/2022 03:04:51 PM pid=11 msg=importclients: 1 customers
+
+08/20/2022 03:04:51 PM pid=11 msg=importclients: add_client: failed to add client AAFES -MAIN - already exists
+
+08/20/2022 03:04:51 PM pid=11 msg=importclients: end
+
+08/20/2022 03:04:54 PM pid=10 msg=importcarriers: start
+
+08/20/2022 03:04:55 PM pid=10 msg=importcarriers: 1 carriers
+
+08/20/2022 03:04:55 PM pid=10 msg=importcarriers: end
+
+08/20/2022 06:32:18 PM pid=9 msg=importclients: start
+
+08/20/2022 06:32:18 PM pid=9 msg=importclients: 1 customers
+
+08/20/2022 06:32:18 PM pid=9 msg=importclients: add_client: failed to add client AAFES -MAIN - already exists
+
+08/20/2022 06:32:18 PM pid=9 msg=importclients: end
+

@@ -1,0 +1,1052 @@
+01/19/2022 10:58:54 AM pid=9 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/19/2022 10:58:54 AM pid=9 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 305617c968dac06ef91d3dd49edc641bc3876d5b6eaaac8fdeea5136d229004e
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/19/2022 10:58:54 AM pid=9 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=305617c968dac06ef91d3dd49edc641bc3876d5b6eaaac8fdeea5136d229004e&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/19/2022 10:58:55 AM pid=9 msg=sts_keeptruckin::fetch_token: result = {"access_token":"26426e5ec9f0b48babc297212bac67165bba37643cbd1ee4139b69a66c8a84c2","token_type":"Bearer","expires_in":7200,"refresh_token":"2be2537dd912e2a397298c5e56cc57add41c3d79ed52477d272a1de955e36b1f","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1642611534}
+
+01/19/2022 10:58:55 AM pid=9 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/19/2022 10:58:55 AM pid=9 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 26426e5ec9f0b48babc297212bac67165bba37643cbd1ee4139b69a66c8a84c2
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => 2be2537dd912e2a397298c5e56cc57add41c3d79ed52477d272a1de955e36b1f
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1642611534
+)
+
+
+01/19/2022 10:58:55 AM pid=9 msg=exp_kt_oauth2.php: Already Authenticated
+
+01/19/2022 10:58:55 AM pid=9 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/companies old_method=false
+
+01/19/2022 10:58:55 AM pid=9 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/19/2022 10:58:55 AM pid=9 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 2be2537dd912e2a397298c5e56cc57add41c3d79ed52477d272a1de955e36b1f
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/19/2022 10:58:55 AM pid=9 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=2be2537dd912e2a397298c5e56cc57add41c3d79ed52477d272a1de955e36b1f&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/19/2022 10:58:55 AM pid=9 msg=sts_keeptruckin::fetch_token: result = {"access_token":"2e44cfe95ff3370566f9ce8318e8e3835d9a5359ad5bf24306ff63c157d2a88b","token_type":"Bearer","expires_in":7200,"refresh_token":"b0472d44c6b30b8be34c68419d09aee83b95fdd5e1ceb42b0befad1cbb67702e","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1642611535}
+
+01/19/2022 10:58:55 AM pid=9 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/19/2022 10:58:55 AM pid=9 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 2e44cfe95ff3370566f9ce8318e8e3835d9a5359ad5bf24306ff63c157d2a88b
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => b0472d44c6b30b8be34c68419d09aee83b95fdd5e1ceb42b0befad1cbb67702e
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1642611535
+)
+
+
+01/19/2022 10:58:55 AM pid=9 msg=sts_keeptruckin::fetch: result = {"companies":[{"company":{"id":10844,"company_id":"KT3393395","name":"Exspeedite","street":"1004 Hillock Street North West","city":"iSANTI","state":"MN","zip":"55040","dot_ids":[],"cycle":"","time_zone":"","exception_24_hour_restart":false,"exception_8_hour_break":false,"exception_wait_time":false,"exception_short_haul":false,"exception_ca_farm_school_bus":false,"metric_units":false,"minute_logs":false,"subscription_plan":null}}],"pagination":{"per_page":25,"page_no":1,"total":1}}
+
+01/19/2022 10:58:55 AM pid=9 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+01/19/2022 10:58:55 AM pid=9 msg=sts_keeptruckin::fetch: returned 1 records
+
+01/19/2022 03:54:28 PM pid=9 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/company_webhooks old_method=true
+
+01/19/2022 03:54:28 PM pid=9 msg=sts_keeptruckin::fetch: result = {"company_webhooks":[{"company_webhook":{"id":3004,"url":"http://bandmservices.exspeedite.net/exp_kt_vehicle_location_updated.php","secret":"67298a4636cb6e07ceabf750bb63e99d","format":"json","actions":["vehicle_location_updated"],"enabled":true}},{"company_webhook":{"id":5106,"url":"http://strongtco.dyndns.org:2378/exspeedite/exp_kt_vehicle_location_updated.php","secret":"67298a4636cb6e07ceabf750bb63e99d","format":"json","actions":["vehicle_location_updated"],"enabled":false}}],"pagination":{"per_page":25,"page_no":1,"total":2}}
+
+01/19/2022 03:54:28 PM pid=9 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+01/19/2022 03:54:28 PM pid=9 msg=sts_keeptruckin::fetch: returned 2 records
+
+01/20/2022 12:52:20 PM pid=12 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/company_webhooks old_method=true
+
+01/20/2022 12:52:20 PM pid=12 msg=sts_keeptruckin::fetch: result = {"company_webhooks":[{"company_webhook":{"id":3004,"url":"http://bandmservices.exspeedite.net/exp_kt_vehicle_location_updated.php","secret":"67298a4636cb6e07ceabf750bb63e99d","format":"json","actions":["vehicle_location_updated"],"enabled":true}},{"company_webhook":{"id":5106,"url":"http://strongtco.dyndns.org:2378/exspeedite/exp_kt_vehicle_location_updated.php","secret":"67298a4636cb6e07ceabf750bb63e99d","format":"json","actions":["vehicle_location_updated"],"enabled":false}}],"pagination":{"per_page":25,"page_no":1,"total":2}}
+
+01/20/2022 12:52:20 PM pid=12 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+01/20/2022 12:52:20 PM pid=12 msg=sts_keeptruckin::fetch: returned 2 records
+
+01/20/2022 01:06:10 PM pid=7 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/20/2022 01:06:10 PM pid=7 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => b0472d44c6b30b8be34c68419d09aee83b95fdd5e1ceb42b0befad1cbb67702e
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/20/2022 01:06:10 PM pid=7 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=b0472d44c6b30b8be34c68419d09aee83b95fdd5e1ceb42b0befad1cbb67702e&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/20/2022 01:06:11 PM pid=7 msg=sts_keeptruckin::fetch_token: result = {"access_token":"f223ac36617d809880a85341378ae5b8f56d0ff3a731b5add0e36be082b49213","token_type":"Bearer","expires_in":7200,"refresh_token":"677e673e2ddf39f41de16df512becf74eff9bec1a0eb5fd28cd476fd83e34c3d","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1642705571}
+
+01/20/2022 01:06:11 PM pid=7 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/20/2022 01:06:11 PM pid=7 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => f223ac36617d809880a85341378ae5b8f56d0ff3a731b5add0e36be082b49213
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => 677e673e2ddf39f41de16df512becf74eff9bec1a0eb5fd28cd476fd83e34c3d
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1642705571
+)
+
+
+01/20/2022 01:06:11 PM pid=7 msg=exp_kt_oauth2.php: Already Authenticated
+
+01/20/2022 01:06:11 PM pid=7 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/companies old_method=false
+
+01/20/2022 01:06:11 PM pid=7 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/20/2022 01:06:11 PM pid=7 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 677e673e2ddf39f41de16df512becf74eff9bec1a0eb5fd28cd476fd83e34c3d
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/20/2022 01:06:11 PM pid=7 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=677e673e2ddf39f41de16df512becf74eff9bec1a0eb5fd28cd476fd83e34c3d&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/20/2022 01:06:11 PM pid=7 msg=sts_keeptruckin::fetch_token: result = {"access_token":"5fd016e630ea6f3fe240ee2d3282f3087197373bc006cb9445e70d32a7504249","token_type":"Bearer","expires_in":7200,"refresh_token":"8249b49dafb495e2278b3ad6d1aac5b39744779c68206d35fddb0a2f735d9482","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1642705571}
+
+01/20/2022 01:06:11 PM pid=7 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/20/2022 01:06:11 PM pid=7 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 5fd016e630ea6f3fe240ee2d3282f3087197373bc006cb9445e70d32a7504249
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => 8249b49dafb495e2278b3ad6d1aac5b39744779c68206d35fddb0a2f735d9482
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1642705571
+)
+
+
+01/20/2022 01:06:11 PM pid=7 msg=sts_keeptruckin::fetch: result = {"companies":[{"company":{"id":10844,"company_id":"KT3393395","name":"Exspeedite","street":"1004 Hillock Street North West","city":"iSANTI","state":"MN","zip":"55040","dot_ids":[],"cycle":"","time_zone":"","exception_24_hour_restart":false,"exception_8_hour_break":false,"exception_wait_time":false,"exception_short_haul":false,"exception_ca_farm_school_bus":false,"metric_units":false,"minute_logs":false,"subscription_plan":null}}],"pagination":{"per_page":25,"page_no":1,"total":1}}
+
+01/20/2022 01:06:11 PM pid=7 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+01/20/2022 01:06:11 PM pid=7 msg=sts_keeptruckin::fetch: returned 1 records
+
+01/20/2022 01:09:35 PM pid=15 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/20/2022 01:09:35 PM pid=15 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 8249b49dafb495e2278b3ad6d1aac5b39744779c68206d35fddb0a2f735d9482
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/20/2022 01:09:35 PM pid=15 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=8249b49dafb495e2278b3ad6d1aac5b39744779c68206d35fddb0a2f735d9482&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/20/2022 01:09:35 PM pid=15 msg=sts_keeptruckin::fetch_token: result = {"access_token":"65ad5674094ccfb577f92816884dec6b561ea39884967675bdcad301a062fd62","token_type":"Bearer","expires_in":7200,"refresh_token":"0c3ec893de98825e693e378da7d40785d969bb27ab0905b7e7df8d281b41495a","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1642705775}
+
+01/20/2022 01:09:35 PM pid=15 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/20/2022 01:09:35 PM pid=15 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 65ad5674094ccfb577f92816884dec6b561ea39884967675bdcad301a062fd62
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => 0c3ec893de98825e693e378da7d40785d969bb27ab0905b7e7df8d281b41495a
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1642705775
+)
+
+
+01/20/2022 01:09:35 PM pid=15 msg=exp_kt_oauth2.php: Already Authenticated
+
+01/20/2022 01:09:35 PM pid=15 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/companies old_method=false
+
+01/20/2022 01:09:35 PM pid=15 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/20/2022 01:09:35 PM pid=15 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 0c3ec893de98825e693e378da7d40785d969bb27ab0905b7e7df8d281b41495a
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/20/2022 01:09:35 PM pid=15 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=0c3ec893de98825e693e378da7d40785d969bb27ab0905b7e7df8d281b41495a&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/20/2022 01:09:35 PM pid=15 msg=sts_keeptruckin::fetch_token: result = {"access_token":"f2d30b122ccc544494dee83a441c88b2eee73b01d49c1d254826250bf3de9524","token_type":"Bearer","expires_in":7200,"refresh_token":"abc94ad43bbb80dc304930b7ba4b2fc59abb9a4ad4132919e622c258e5a09103","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1642705775}
+
+01/20/2022 01:09:35 PM pid=15 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/20/2022 01:09:35 PM pid=15 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => f2d30b122ccc544494dee83a441c88b2eee73b01d49c1d254826250bf3de9524
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => abc94ad43bbb80dc304930b7ba4b2fc59abb9a4ad4132919e622c258e5a09103
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1642705775
+)
+
+
+01/20/2022 01:09:36 PM pid=15 msg=sts_keeptruckin::fetch: result = {"companies":[{"company":{"id":10844,"company_id":"KT3393395","name":"Exspeedite","street":"1004 Hillock Street North West","city":"iSANTI","state":"MN","zip":"55040","dot_ids":[],"cycle":"","time_zone":"","exception_24_hour_restart":false,"exception_8_hour_break":false,"exception_wait_time":false,"exception_short_haul":false,"exception_ca_farm_school_bus":false,"metric_units":false,"minute_logs":false,"subscription_plan":null}}],"pagination":{"per_page":25,"page_no":1,"total":1}}
+
+01/20/2022 01:09:36 PM pid=15 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+01/20/2022 01:09:36 PM pid=15 msg=sts_keeptruckin::fetch: returned 1 records
+
+01/25/2022 09:15:04 AM pid=10 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/company_webhooks old_method=true
+
+01/25/2022 09:15:04 AM pid=10 msg=sts_keeptruckin::fetch: result = {"company_webhooks":[{"company_webhook":{"id":3004,"url":"http://bandmservices.exspeedite.net/exp_kt_vehicle_location_updated.php","secret":"67298a4636cb6e07ceabf750bb63e99d","format":"json","actions":["vehicle_location_updated"],"enabled":true}},{"company_webhook":{"id":5106,"url":"http://strongtco.dyndns.org:2378/exspeedite/exp_kt_vehicle_location_updated.php","secret":"67298a4636cb6e07ceabf750bb63e99d","format":"json","actions":["vehicle_location_updated"],"enabled":false}}],"pagination":{"per_page":25,"page_no":1,"total":2}}
+
+01/25/2022 09:15:04 AM pid=10 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+01/25/2022 09:15:04 AM pid=10 msg=sts_keeptruckin::fetch: returned 2 records
+
+01/26/2022 12:32:50 PM pid=13 msg=sts_keeptruckin::import_ifta: year = 2022, quarter = 1, vin = false
+
+01/26/2022 12:32:50 PM pid=13 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/ifta/trips?start_date=2022-01-01&end_date=2022-03-31 old_method=false
+
+01/26/2022 12:32:50 PM pid=13 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/26/2022 12:32:50 PM pid=13 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => abc94ad43bbb80dc304930b7ba4b2fc59abb9a4ad4132919e622c258e5a09103
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/26/2022 12:32:50 PM pid=13 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=abc94ad43bbb80dc304930b7ba4b2fc59abb9a4ad4132919e622c258e5a09103&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/26/2022 12:32:50 PM pid=13 msg=sts_keeptruckin::fetch_token: result = {"access_token":"991447a7386bb2e8eceb57342f0ddc8761c2fa86f8da0c9868394a75cd0492d7","token_type":"Bearer","expires_in":7200,"refresh_token":"b7a32d7599c389e60c3befb9261998eacb79364e5461d76db84a8df11da956c4","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1643221970}
+
+01/26/2022 12:32:50 PM pid=13 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/26/2022 12:32:50 PM pid=13 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 991447a7386bb2e8eceb57342f0ddc8761c2fa86f8da0c9868394a75cd0492d7
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => b7a32d7599c389e60c3befb9261998eacb79364e5461d76db84a8df11da956c4
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1643221970
+)
+
+
+01/26/2022 12:32:50 PM pid=13 msg=sts_keeptruckin::fetch: result = {"error_message":"account is not subscribed to this feature"}
+
+01/26/2022 12:32:50 PM pid=13 msg=sts_keeptruckin::fetch: http_response_header = 403
+
+01/26/2022 12:32:50 PM pid=13 msg=sts_keeptruckin::fetch: Error: account is not subscribed to this feature
+
+01/26/2022 12:32:50 PM pid=13 msg=sts_keeptruckin::fetch: returned no records
+
+01/26/2022 12:32:50 PM pid=13 msg=sts_keeptruckin::import_ifta: import failed, return false
+
+01/26/2022 12:33:06 PM pid=12 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/26/2022 12:33:06 PM pid=12 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => b7a32d7599c389e60c3befb9261998eacb79364e5461d76db84a8df11da956c4
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/26/2022 12:33:06 PM pid=12 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=b7a32d7599c389e60c3befb9261998eacb79364e5461d76db84a8df11da956c4&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/26/2022 12:33:06 PM pid=12 msg=sts_keeptruckin::fetch_token: result = {"access_token":"6a5367e2bd594e27a1c797fbb51aa689f045a1b201632b7e40cf6a84c61f4794","token_type":"Bearer","expires_in":7200,"refresh_token":"d7e4b962f98495cbaf686f06fb9d5262ac2717f458da72448ecc7fe321f6873e","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1643221986}
+
+01/26/2022 12:33:06 PM pid=12 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/26/2022 12:33:06 PM pid=12 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 6a5367e2bd594e27a1c797fbb51aa689f045a1b201632b7e40cf6a84c61f4794
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => d7e4b962f98495cbaf686f06fb9d5262ac2717f458da72448ecc7fe321f6873e
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1643221986
+)
+
+
+01/26/2022 12:33:06 PM pid=12 msg=exp_kt_oauth2.php: Already Authenticated
+
+01/26/2022 12:33:06 PM pid=12 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/companies old_method=false
+
+01/26/2022 12:33:06 PM pid=12 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/26/2022 12:33:06 PM pid=12 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => d7e4b962f98495cbaf686f06fb9d5262ac2717f458da72448ecc7fe321f6873e
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/26/2022 12:33:06 PM pid=12 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=d7e4b962f98495cbaf686f06fb9d5262ac2717f458da72448ecc7fe321f6873e&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/26/2022 12:33:07 PM pid=12 msg=sts_keeptruckin::fetch_token: result = {"access_token":"1b405b7220ea98964147e7573e1679aa3a3da953c743ff968f131b298cfa82a9","token_type":"Bearer","expires_in":7200,"refresh_token":"2bc046a5b1fa18a0e92ba43449dde017424f69a739124b65b4ac7e38ed135e6a","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1643221987}
+
+01/26/2022 12:33:07 PM pid=12 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/26/2022 12:33:07 PM pid=12 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 1b405b7220ea98964147e7573e1679aa3a3da953c743ff968f131b298cfa82a9
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => 2bc046a5b1fa18a0e92ba43449dde017424f69a739124b65b4ac7e38ed135e6a
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1643221987
+)
+
+
+01/26/2022 12:33:07 PM pid=12 msg=sts_keeptruckin::fetch: result = {"companies":[{"company":{"id":10844,"company_id":"KT3393395","name":"Exspeedite","street":"1004 Hillock Street North West","city":"iSANTI","state":"MN","zip":"55040","dot_ids":[],"cycle":"","time_zone":"","exception_24_hour_restart":false,"exception_8_hour_break":false,"exception_wait_time":false,"exception_short_haul":false,"exception_ca_farm_school_bus":false,"metric_units":false,"minute_logs":false,"subscription_plan":null}}],"pagination":{"per_page":25,"page_no":1,"total":1}}
+
+01/26/2022 12:33:07 PM pid=12 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+01/26/2022 12:33:07 PM pid=12 msg=sts_keeptruckin::fetch: returned 1 records
+
+01/26/2022 12:35:21 PM pid=9 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/company_webhooks old_method=true
+
+01/26/2022 12:35:22 PM pid=9 msg=sts_keeptruckin::fetch: result = {"company_webhooks":[{"company_webhook":{"id":3004,"url":"http://bandmservices.exspeedite.net/exp_kt_vehicle_location_updated.php","secret":"67298a4636cb6e07ceabf750bb63e99d","format":"json","actions":["vehicle_location_updated"],"enabled":true}},{"company_webhook":{"id":5106,"url":"http://strongtco.dyndns.org:2378/exspeedite/exp_kt_vehicle_location_updated.php","secret":"67298a4636cb6e07ceabf750bb63e99d","format":"json","actions":["vehicle_location_updated"],"enabled":false}}],"pagination":{"per_page":25,"page_no":1,"total":2}}
+
+01/26/2022 12:35:22 PM pid=9 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+01/26/2022 12:35:22 PM pid=9 msg=sts_keeptruckin::fetch: returned 2 records
+
+01/26/2022 12:35:25 PM pid=11 msg=sts_keeptruckin::post: url = https://api.keeptruckin.com/v1/company_webhooks?url=http%3A%2F%2Forcloud.exspeedite.net%2Fexp_kt_vehicle_location_updated.php&secret=67298a4636cb6e07ceabf750bb63e99d&enabled=true&format=json&actions%5B%5D=vehicle_location_updated
+
+01/26/2022 12:35:25 PM pid=11 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/26/2022 12:35:25 PM pid=11 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 2bc046a5b1fa18a0e92ba43449dde017424f69a739124b65b4ac7e38ed135e6a
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/26/2022 12:35:25 PM pid=11 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=2bc046a5b1fa18a0e92ba43449dde017424f69a739124b65b4ac7e38ed135e6a&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/26/2022 12:35:25 PM pid=11 msg=sts_keeptruckin::fetch_token: result = {"access_token":"207589bb4394b6d701cb5f98c22fd00af3d4da6aead2d750ab791e7dafac1766","token_type":"Bearer","expires_in":7200,"refresh_token":"d832e527f10fa8718171da04313e30639af46e3bbf3b0993c5abbe9757c39809","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1643222125}
+
+01/26/2022 12:35:25 PM pid=11 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/26/2022 12:35:25 PM pid=11 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 207589bb4394b6d701cb5f98c22fd00af3d4da6aead2d750ab791e7dafac1766
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => d832e527f10fa8718171da04313e30639af46e3bbf3b0993c5abbe9757c39809
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1643222125
+)
+
+
+01/26/2022 12:35:25 PM pid=11 msg=sts_keeptruckin::post: result = {"error_message":"The resource owner or authorization server denied the request."}
+
+01/26/2022 12:35:25 PM pid=11 msg=sts_keeptruckin::post: http_response_header = 403
+
+01/26/2022 12:35:27 PM pid=11 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/company_webhooks old_method=true
+
+01/26/2022 12:35:27 PM pid=11 msg=sts_keeptruckin::fetch: result = {"company_webhooks":[{"company_webhook":{"id":3004,"url":"http://bandmservices.exspeedite.net/exp_kt_vehicle_location_updated.php","secret":"67298a4636cb6e07ceabf750bb63e99d","format":"json","actions":["vehicle_location_updated"],"enabled":true}},{"company_webhook":{"id":5106,"url":"http://strongtco.dyndns.org:2378/exspeedite/exp_kt_vehicle_location_updated.php","secret":"67298a4636cb6e07ceabf750bb63e99d","format":"json","actions":["vehicle_location_updated"],"enabled":false}}],"pagination":{"per_page":25,"page_no":1,"total":2}}
+
+01/26/2022 12:35:27 PM pid=11 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+01/26/2022 12:35:27 PM pid=11 msg=sts_keeptruckin::fetch: returned 2 records
+
+01/26/2022 12:36:12 PM pid=12 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/users?status=active&role=driver old_method=false
+
+01/26/2022 12:36:12 PM pid=12 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/26/2022 12:36:12 PM pid=12 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => d832e527f10fa8718171da04313e30639af46e3bbf3b0993c5abbe9757c39809
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/26/2022 12:36:12 PM pid=12 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=d832e527f10fa8718171da04313e30639af46e3bbf3b0993c5abbe9757c39809&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/26/2022 12:36:12 PM pid=12 msg=sts_keeptruckin::fetch_token: result = {"access_token":"9e4e6d3e5e0579876d1a010f30d4195905bf44652607eec12f6e524010238723","token_type":"Bearer","expires_in":7200,"refresh_token":"dc7627c1fd4bc9b493bdb5e610c45cc5a0799a5519c7bc3906aab63c2c200bef","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1643222172}
+
+01/26/2022 12:36:12 PM pid=12 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/26/2022 12:36:12 PM pid=12 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 9e4e6d3e5e0579876d1a010f30d4195905bf44652607eec12f6e524010238723
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => dc7627c1fd4bc9b493bdb5e610c45cc5a0799a5519c7bc3906aab63c2c200bef
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1643222172
+)
+
+
+01/26/2022 12:36:12 PM pid=12 msg=sts_keeptruckin::fetch: result = {"users":[],"pagination":{"per_page":25,"page_no":1,"total":0}}
+
+01/26/2022 12:36:12 PM pid=12 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+01/26/2022 12:36:12 PM pid=12 msg=sts_keeptruckin::fetch: returned 0 records
+
+01/26/2022 12:37:26 PM pid=12 msg=sts_ifta_rate::view_rates: quarter_year = 2Q2021
+
+01/26/2022 12:37:34 PM pid=9 msg=sts_ifta_rate::view_rates: quarter_year = 4Q2021
+
+01/26/2022 12:37:40 PM pid=11 msg=sts_ifta_rate::view_rates: quarter_year = 3Q2021
+
+01/26/2022 12:37:45 PM pid=10 msg=sts_ifta_rate::download_rates: quarter_year = 3Q2021
+
+01/26/2022 12:37:47 PM pid=10 msg=sts_ifta_rate::download_rates: return 586
+
+01/26/2022 12:37:48 PM pid=14 msg=sts_ifta_rate::view_rates: quarter_year = 3Q2021
+
+01/26/2022 12:37:52 PM pid=13 msg=sts_ifta_rate::view_rates: quarter_year = 4Q2021
+
+01/26/2022 12:38:01 PM pid=12 msg=sts_ifta_rate::download_rates: quarter_year = 4Q2021
+
+01/26/2022 12:38:03 PM pid=12 msg=sts_ifta_rate::download_rates: return 586
+
+01/26/2022 12:38:04 PM pid=9 msg=sts_ifta_rate::view_rates: quarter_year = 4Q2021
+
+01/26/2022 12:38:09 PM pid=11 msg=sts_ifta_rate::view_rates: quarter_year = 1Q2022
+
+01/26/2022 12:38:15 PM pid=10 msg=sts_ifta_rate::view_rates: quarter_year = 3Q2020
+
+01/26/2022 12:38:16 PM pid=14 msg=sts_ifta_rate::download_rates: quarter_year = 3Q2020
+
+01/26/2022 12:38:18 PM pid=14 msg=sts_ifta_rate::download_rates: return 587
+
+01/26/2022 12:38:19 PM pid=13 msg=sts_ifta_rate::view_rates: quarter_year = 3Q2020
+
+01/26/2022 12:38:37 PM pid=11 msg=sts_keeptruckin::import_ifta: year = 2020, quarter = 3, vin = false
+
+01/26/2022 12:38:37 PM pid=11 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/ifta/trips?start_date=2020-07-01&end_date=2020-09-30 old_method=false
+
+01/26/2022 12:38:37 PM pid=11 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/26/2022 12:38:37 PM pid=11 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => dc7627c1fd4bc9b493bdb5e610c45cc5a0799a5519c7bc3906aab63c2c200bef
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/26/2022 12:38:37 PM pid=11 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=dc7627c1fd4bc9b493bdb5e610c45cc5a0799a5519c7bc3906aab63c2c200bef&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/26/2022 12:38:38 PM pid=11 msg=sts_keeptruckin::fetch_token: result = {"access_token":"24c940e058192fa6cc7358340d51875b94cef8ab17626084289dd0ae5eba1071","token_type":"Bearer","expires_in":7200,"refresh_token":"0d133bdab80775e4e38b023372aceb6517e70e796dde2c4e6eb3eec48e48ae5f","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1643222318}
+
+01/26/2022 12:38:38 PM pid=11 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/26/2022 12:38:38 PM pid=11 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 24c940e058192fa6cc7358340d51875b94cef8ab17626084289dd0ae5eba1071
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => 0d133bdab80775e4e38b023372aceb6517e70e796dde2c4e6eb3eec48e48ae5f
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1643222318
+)
+
+
+01/26/2022 12:38:38 PM pid=11 msg=sts_keeptruckin::fetch: result = {"error_message":"account is not subscribed to this feature"}
+
+01/26/2022 12:38:38 PM pid=11 msg=sts_keeptruckin::fetch: http_response_header = 403
+
+01/26/2022 12:38:38 PM pid=11 msg=sts_keeptruckin::fetch: Error: account is not subscribed to this feature
+
+01/26/2022 12:38:38 PM pid=11 msg=sts_keeptruckin::fetch: returned no records
+
+01/26/2022 12:38:38 PM pid=11 msg=sts_keeptruckin::import_ifta: import failed, return false
+
+01/26/2022 12:39:05 PM pid=14 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/26/2022 12:39:05 PM pid=14 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 0d133bdab80775e4e38b023372aceb6517e70e796dde2c4e6eb3eec48e48ae5f
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/26/2022 12:39:05 PM pid=14 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=0d133bdab80775e4e38b023372aceb6517e70e796dde2c4e6eb3eec48e48ae5f&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/26/2022 12:39:06 PM pid=14 msg=sts_keeptruckin::fetch_token: result = {"access_token":"868ff5e90c660966d1992569bcf3384f85ef3034329ecef0da14ed3f722f2a2c","token_type":"Bearer","expires_in":7200,"refresh_token":"f069e0263f55ee51f0d2bd654aa7f25ead8311aa6285456d9a5f490878ff94a1","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1643222345}
+
+01/26/2022 12:39:06 PM pid=14 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/26/2022 12:39:06 PM pid=14 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 868ff5e90c660966d1992569bcf3384f85ef3034329ecef0da14ed3f722f2a2c
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => f069e0263f55ee51f0d2bd654aa7f25ead8311aa6285456d9a5f490878ff94a1
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1643222345
+)
+
+
+01/26/2022 12:39:06 PM pid=14 msg=exp_kt_oauth2.php: Already Authenticated
+
+01/26/2022 12:39:06 PM pid=14 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/companies old_method=false
+
+01/26/2022 12:39:06 PM pid=14 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/26/2022 12:39:06 PM pid=14 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => f069e0263f55ee51f0d2bd654aa7f25ead8311aa6285456d9a5f490878ff94a1
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/26/2022 12:39:06 PM pid=14 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=f069e0263f55ee51f0d2bd654aa7f25ead8311aa6285456d9a5f490878ff94a1&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/26/2022 12:39:06 PM pid=14 msg=sts_keeptruckin::fetch_token: result = {"access_token":"98939f08168a05309ec341fc157c24363a3a5b0953eb92cfa4a3119f572a6f03","token_type":"Bearer","expires_in":7200,"refresh_token":"f0c2617ee51aa255ab8d6b23b0221368fa12e823e16fae5a9058dc002ec43cc4","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1643222346}
+
+01/26/2022 12:39:06 PM pid=14 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/26/2022 12:39:06 PM pid=14 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 98939f08168a05309ec341fc157c24363a3a5b0953eb92cfa4a3119f572a6f03
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => f0c2617ee51aa255ab8d6b23b0221368fa12e823e16fae5a9058dc002ec43cc4
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1643222346
+)
+
+
+01/26/2022 12:39:06 PM pid=14 msg=sts_keeptruckin::fetch: result = {"companies":[{"company":{"id":10844,"company_id":"KT3393395","name":"Exspeedite","street":"1004 Hillock Street North West","city":"iSANTI","state":"MN","zip":"55040","dot_ids":[],"cycle":"","time_zone":"","exception_24_hour_restart":false,"exception_8_hour_break":false,"exception_wait_time":false,"exception_short_haul":false,"exception_ca_farm_school_bus":false,"metric_units":false,"minute_logs":false,"subscription_plan":null}}],"pagination":{"per_page":25,"page_no":1,"total":1}}
+
+01/26/2022 12:39:06 PM pid=14 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+01/26/2022 12:39:06 PM pid=14 msg=sts_keeptruckin::fetch: returned 1 records
+
+01/26/2022 12:39:12 PM pid=13 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/26/2022 12:39:12 PM pid=13 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => f0c2617ee51aa255ab8d6b23b0221368fa12e823e16fae5a9058dc002ec43cc4
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/26/2022 12:39:12 PM pid=13 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=f0c2617ee51aa255ab8d6b23b0221368fa12e823e16fae5a9058dc002ec43cc4&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/26/2022 12:39:12 PM pid=13 msg=sts_keeptruckin::fetch_token: result = {"access_token":"3c44f3e40661945e10bf3d826f6a66228dbbb8433fbbbf1e58985fd8704ca735","token_type":"Bearer","expires_in":7200,"refresh_token":"b9f5e6f901e0bd4aebc6f57a2a936804a3876f85171e8c2df69606625d20c13b","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1643222352}
+
+01/26/2022 12:39:12 PM pid=13 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/26/2022 12:39:12 PM pid=13 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 3c44f3e40661945e10bf3d826f6a66228dbbb8433fbbbf1e58985fd8704ca735
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => b9f5e6f901e0bd4aebc6f57a2a936804a3876f85171e8c2df69606625d20c13b
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1643222352
+)
+
+
+01/26/2022 12:39:12 PM pid=13 msg=exp_kt_oauth2.php: Already Authenticated
+
+01/26/2022 12:39:12 PM pid=13 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/companies old_method=false
+
+01/26/2022 12:39:12 PM pid=13 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+01/26/2022 12:39:12 PM pid=13 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => b9f5e6f901e0bd4aebc6f57a2a936804a3876f85171e8c2df69606625d20c13b
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+01/26/2022 12:39:12 PM pid=13 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=b9f5e6f901e0bd4aebc6f57a2a936804a3876f85171e8c2df69606625d20c13b&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+01/26/2022 12:39:12 PM pid=13 msg=sts_keeptruckin::fetch_token: result = {"access_token":"32fc9bdb9af1e783c0ed9cf91aa99c5974137923cf33c398e18224579fe42c4f","token_type":"Bearer","expires_in":7200,"refresh_token":"f6df7fe64ffd194ae687298ef6ad6bacf8ec06dfe0cea58c82378be4e376962e","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1643222352}
+
+01/26/2022 12:39:12 PM pid=13 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+01/26/2022 12:39:12 PM pid=13 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 32fc9bdb9af1e783c0ed9cf91aa99c5974137923cf33c398e18224579fe42c4f
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => f6df7fe64ffd194ae687298ef6ad6bacf8ec06dfe0cea58c82378be4e376962e
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1643222352
+)
+
+
+01/26/2022 12:39:13 PM pid=13 msg=sts_keeptruckin::fetch: result = {"companies":[{"company":{"id":10844,"company_id":"KT3393395","name":"Exspeedite","street":"1004 Hillock Street North West","city":"iSANTI","state":"MN","zip":"55040","dot_ids":[],"cycle":"","time_zone":"","exception_24_hour_restart":false,"exception_8_hour_break":false,"exception_wait_time":false,"exception_short_haul":false,"exception_ca_farm_school_bus":false,"metric_units":false,"minute_logs":false,"subscription_plan":null}}],"pagination":{"per_page":25,"page_no":1,"total":1}}
+
+01/26/2022 12:39:13 PM pid=13 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+01/26/2022 12:39:13 PM pid=13 msg=sts_keeptruckin::fetch: returned 1 records
+
+02/28/2022 09:06:03 PM pid=9 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/users?status=active&role=driver old_method=false
+
+02/28/2022 09:06:03 PM pid=9 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+02/28/2022 09:06:03 PM pid=9 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => f6df7fe64ffd194ae687298ef6ad6bacf8ec06dfe0cea58c82378be4e376962e
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+02/28/2022 09:06:03 PM pid=9 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=f6df7fe64ffd194ae687298ef6ad6bacf8ec06dfe0cea58c82378be4e376962e&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+02/28/2022 09:06:03 PM pid=9 msg=sts_keeptruckin::fetch_token: result = {"access_token":"0bf8fdc83c18fce9106492b754cfc1a670344c5dfff7ece19118bda3d354e2be","token_type":"Bearer","expires_in":7200,"refresh_token":"de03a36eb366dc2ecbeed2238cd08d22ee76be9cd349f921791e45bd29d9489d","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1646103963}
+
+02/28/2022 09:06:03 PM pid=9 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+02/28/2022 09:06:03 PM pid=9 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 0bf8fdc83c18fce9106492b754cfc1a670344c5dfff7ece19118bda3d354e2be
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => de03a36eb366dc2ecbeed2238cd08d22ee76be9cd349f921791e45bd29d9489d
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1646103963
+)
+
+
+02/28/2022 09:06:04 PM pid=9 msg=sts_keeptruckin::fetch: result = {"users":[],"pagination":{"per_page":25,"page_no":1,"total":0}}
+
+02/28/2022 09:06:04 PM pid=9 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+02/28/2022 09:06:04 PM pid=9 msg=sts_keeptruckin::fetch: returned 0 records
+
+07/06/2022 12:21:18 PM pid=7 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+07/06/2022 12:21:18 PM pid=7 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => de03a36eb366dc2ecbeed2238cd08d22ee76be9cd349f921791e45bd29d9489d
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+07/06/2022 12:21:18 PM pid=7 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=de03a36eb366dc2ecbeed2238cd08d22ee76be9cd349f921791e45bd29d9489d&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+07/06/2022 12:21:19 PM pid=7 msg=sts_keeptruckin::fetch_token: result = {"access_token":"d7aad6387c14cb602362aa3679f620324b170515e2a8a642bb21f967fdfbb6e7","token_type":"Bearer","expires_in":7200,"refresh_token":"596cb24597747269ec1e05e07a493ac7b55c9fa69696c8384dee144315e952fa","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1657128079}
+
+07/06/2022 12:21:19 PM pid=7 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+07/06/2022 12:21:19 PM pid=7 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => d7aad6387c14cb602362aa3679f620324b170515e2a8a642bb21f967fdfbb6e7
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => 596cb24597747269ec1e05e07a493ac7b55c9fa69696c8384dee144315e952fa
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1657128079
+)
+
+
+07/06/2022 12:21:19 PM pid=7 msg=exp_kt_oauth2.php: Already Authenticated
+
+07/06/2022 12:21:19 PM pid=7 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/companies old_method=false
+
+07/06/2022 12:21:19 PM pid=7 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+07/06/2022 12:21:19 PM pid=7 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 596cb24597747269ec1e05e07a493ac7b55c9fa69696c8384dee144315e952fa
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+07/06/2022 12:21:19 PM pid=7 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=596cb24597747269ec1e05e07a493ac7b55c9fa69696c8384dee144315e952fa&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+07/06/2022 12:21:20 PM pid=7 msg=sts_keeptruckin::fetch_token: result = {"access_token":"d368820b547b4cb3bc895abd269dd6c0c67f44f7dde4d8b144b784fce2837e3b","token_type":"Bearer","expires_in":7200,"refresh_token":"c35450dd8b9d1f17d293225e338d225a9b025bc17ea40cbc298ce3cb641e612e","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1657128079}
+
+07/06/2022 12:21:20 PM pid=7 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+07/06/2022 12:21:20 PM pid=7 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => d368820b547b4cb3bc895abd269dd6c0c67f44f7dde4d8b144b784fce2837e3b
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => c35450dd8b9d1f17d293225e338d225a9b025bc17ea40cbc298ce3cb641e612e
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1657128079
+)
+
+
+07/06/2022 12:21:20 PM pid=7 msg=sts_keeptruckin::fetch: result = {"companies":[{"company":{"id":10844,"company_id":"KT3393395","name":"Exspeedite","street":"1004 Hillock Street North West","city":"iSANTI","state":"MN","zip":"55040","dot_ids":[],"cycle":"","time_zone":"","exception_24_hour_restart":false,"exception_8_hour_break":false,"exception_wait_time":false,"exception_short_haul":false,"exception_ca_farm_school_bus":false,"exception_adverse_driving":false,"metric_units":false,"minute_logs":false,"subscription_plan":null}}],"pagination":{"per_page":25,"page_no":1,"total":1}}
+
+07/06/2022 12:21:20 PM pid=7 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+07/06/2022 12:21:20 PM pid=7 msg=sts_keeptruckin::fetch: returned 1 records
+
+07/06/2022 12:21:23 PM pid=10 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+07/06/2022 12:21:23 PM pid=10 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => c35450dd8b9d1f17d293225e338d225a9b025bc17ea40cbc298ce3cb641e612e
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+07/06/2022 12:21:23 PM pid=10 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=c35450dd8b9d1f17d293225e338d225a9b025bc17ea40cbc298ce3cb641e612e&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+07/06/2022 12:21:24 PM pid=10 msg=sts_keeptruckin::fetch_token: result = {"access_token":"b45191c6ef6220aee0f923e9fe95e097199fb100ebb8262abd4697e9cdf68caf","token_type":"Bearer","expires_in":7200,"refresh_token":"b22c6a38d3f05347f44f912b7dac53a89551dd4fb052ceb6bfd3de5753540e95","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1657128084}
+
+07/06/2022 12:21:24 PM pid=10 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+07/06/2022 12:21:24 PM pid=10 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => b45191c6ef6220aee0f923e9fe95e097199fb100ebb8262abd4697e9cdf68caf
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => b22c6a38d3f05347f44f912b7dac53a89551dd4fb052ceb6bfd3de5753540e95
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1657128084
+)
+
+
+07/06/2022 12:21:24 PM pid=10 msg=exp_kt_oauth2.php: Already Authenticated
+
+07/06/2022 12:21:24 PM pid=10 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/companies old_method=false
+
+07/06/2022 12:21:24 PM pid=10 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+07/06/2022 12:21:24 PM pid=10 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => b22c6a38d3f05347f44f912b7dac53a89551dd4fb052ceb6bfd3de5753540e95
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+07/06/2022 12:21:24 PM pid=10 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=b22c6a38d3f05347f44f912b7dac53a89551dd4fb052ceb6bfd3de5753540e95&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+07/06/2022 12:21:24 PM pid=10 msg=sts_keeptruckin::fetch_token: result = {"access_token":"ad77522dcd9756b9328a78330bbf1a00c5c33a43fb982828f5beb3aca2e618ab","token_type":"Bearer","expires_in":7200,"refresh_token":"d402c28b1ec70f1c436f88f13d0815ce4e5e2b87fccf973e907f481efe1ac802","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1657128084}
+
+07/06/2022 12:21:24 PM pid=10 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+07/06/2022 12:21:24 PM pid=10 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => ad77522dcd9756b9328a78330bbf1a00c5c33a43fb982828f5beb3aca2e618ab
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => d402c28b1ec70f1c436f88f13d0815ce4e5e2b87fccf973e907f481efe1ac802
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1657128084
+)
+
+
+07/06/2022 12:21:25 PM pid=10 msg=sts_keeptruckin::fetch: result = {"companies":[{"company":{"id":10844,"company_id":"KT3393395","name":"Exspeedite","street":"1004 Hillock Street North West","city":"iSANTI","state":"MN","zip":"55040","dot_ids":[],"cycle":"","time_zone":"","exception_24_hour_restart":false,"exception_8_hour_break":false,"exception_wait_time":false,"exception_short_haul":false,"exception_ca_farm_school_bus":false,"exception_adverse_driving":false,"metric_units":false,"minute_logs":false,"subscription_plan":null}}],"pagination":{"per_page":25,"page_no":1,"total":1}}
+
+07/06/2022 12:21:25 PM pid=10 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+07/06/2022 12:21:25 PM pid=10 msg=sts_keeptruckin::fetch: returned 1 records
+
+08/20/2022 10:39:11 AM pid=9 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+08/20/2022 10:39:11 AM pid=9 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => d402c28b1ec70f1c436f88f13d0815ce4e5e2b87fccf973e907f481efe1ac802
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+08/20/2022 10:39:11 AM pid=9 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=d402c28b1ec70f1c436f88f13d0815ce4e5e2b87fccf973e907f481efe1ac802&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+08/20/2022 10:39:12 AM pid=9 msg=sts_keeptruckin::fetch_token: result = {"access_token":"62a572dbfa24c4cd5825b71c32c9aefcea3362d4beabd80b33dcb94db4fdba09","token_type":"Bearer","expires_in":7200,"refresh_token":"41255fb5ebfdee6f621e25f41f1dfaa5c7b10569e57dab05e65fedd79818b525","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1661009952}
+
+08/20/2022 10:39:12 AM pid=9 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+08/20/2022 10:39:12 AM pid=9 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 62a572dbfa24c4cd5825b71c32c9aefcea3362d4beabd80b33dcb94db4fdba09
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => 41255fb5ebfdee6f621e25f41f1dfaa5c7b10569e57dab05e65fedd79818b525
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1661009952
+)
+
+
+08/20/2022 10:39:12 AM pid=9 msg=exp_kt_oauth2.php: Already Authenticated
+
+08/20/2022 10:39:12 AM pid=9 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/companies old_method=false
+
+08/20/2022 10:39:12 AM pid=9 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+08/20/2022 10:39:12 AM pid=9 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 41255fb5ebfdee6f621e25f41f1dfaa5c7b10569e57dab05e65fedd79818b525
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+08/20/2022 10:39:12 AM pid=9 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=41255fb5ebfdee6f621e25f41f1dfaa5c7b10569e57dab05e65fedd79818b525&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+08/20/2022 10:39:13 AM pid=9 msg=sts_keeptruckin::fetch_token: result = {"access_token":"e914c0421dcc20a29898bb78f555351bf9e790a12ec9a9a729fcb24ed3c5b2ac","token_type":"Bearer","expires_in":7200,"refresh_token":"72fbe5cccd47b1a8d724da0bd32a442cfb37a4fecd4439ffc9fe985d8f6f9e9e","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1661009952}
+
+08/20/2022 10:39:13 AM pid=9 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+08/20/2022 10:39:13 AM pid=9 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => e914c0421dcc20a29898bb78f555351bf9e790a12ec9a9a729fcb24ed3c5b2ac
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => 72fbe5cccd47b1a8d724da0bd32a442cfb37a4fecd4439ffc9fe985d8f6f9e9e
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1661009952
+)
+
+
+08/20/2022 10:39:13 AM pid=9 msg=sts_keeptruckin::fetch: result = {"companies":[{"company":{"id":10844,"company_id":"KT3393395","name":"Exspeedite","street":"1004 Hillock Street North West","city":"iSANTI","state":"MN","zip":"55040","dot_ids":[],"cycle":"","time_zone":"","exception_24_hour_restart":false,"exception_8_hour_break":false,"exception_wait_time":false,"exception_short_haul":false,"exception_ca_farm_school_bus":false,"exception_adverse_driving":false,"metric_units":false,"minute_logs":false,"subscription_plan":null}}],"pagination":{"per_page":25,"page_no":1,"total":1}}
+
+08/20/2022 10:39:13 AM pid=9 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+08/20/2022 10:39:13 AM pid=9 msg=sts_keeptruckin::fetch: returned 1 records
+
+08/20/2022 10:39:20 AM pid=11 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/company_webhooks old_method=true
+
+08/20/2022 10:39:20 AM pid=11 msg=sts_keeptruckin::fetch: result = {"company_webhooks":[{"company_webhook":{"id":3004,"url":"http://bandmservices.exspeedite.net/exp_kt_vehicle_location_updated.php","secret":"67298a4636cb6e07ceabf750bb63e99d","format":"json","actions":["vehicle_location_updated"],"enabled":true}},{"company_webhook":{"id":5106,"url":"http://strongtco.dyndns.org:2378/exspeedite/exp_kt_vehicle_location_updated.php","secret":"67298a4636cb6e07ceabf750bb63e99d","format":"json","actions":["vehicle_location_updated"],"enabled":false}}],"pagination":{"per_page":25,"page_no":1,"total":2}}
+
+08/20/2022 10:39:20 AM pid=11 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+08/20/2022 10:39:20 AM pid=11 msg=sts_keeptruckin::fetch: returned 2 records
+
+08/20/2022 03:06:09 PM pid=12 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+08/20/2022 03:06:09 PM pid=12 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 72fbe5cccd47b1a8d724da0bd32a442cfb37a4fecd4439ffc9fe985d8f6f9e9e
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+08/20/2022 03:06:09 PM pid=12 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=72fbe5cccd47b1a8d724da0bd32a442cfb37a4fecd4439ffc9fe985d8f6f9e9e&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+08/20/2022 03:06:10 PM pid=12 msg=sts_keeptruckin::fetch_token: result = {"access_token":"0aa73acdb1a8805c51e6acd77959a1b91c9c801e5bb3b0be8a99e5505817783d","token_type":"Bearer","expires_in":7200,"refresh_token":"5c01f8401025eab285fbf0d1ddc6169a36649adf4c2d350e0a63f72f3479641f","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1661025969}
+
+08/20/2022 03:06:10 PM pid=12 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+08/20/2022 03:06:10 PM pid=12 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 0aa73acdb1a8805c51e6acd77959a1b91c9c801e5bb3b0be8a99e5505817783d
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => 5c01f8401025eab285fbf0d1ddc6169a36649adf4c2d350e0a63f72f3479641f
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1661025969
+)
+
+
+08/20/2022 03:06:10 PM pid=12 msg=exp_kt_oauth2.php: Already Authenticated
+
+08/20/2022 03:06:10 PM pid=12 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/companies old_method=false
+
+08/20/2022 03:06:10 PM pid=12 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+08/20/2022 03:06:10 PM pid=12 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 5c01f8401025eab285fbf0d1ddc6169a36649adf4c2d350e0a63f72f3479641f
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+08/20/2022 03:06:10 PM pid=12 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=5c01f8401025eab285fbf0d1ddc6169a36649adf4c2d350e0a63f72f3479641f&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+08/20/2022 03:06:10 PM pid=12 msg=sts_keeptruckin::fetch_token: result = {"access_token":"4c208991edff8d4a8c27203df7767266d37019dae38f157f1f9d458527352d54","token_type":"Bearer","expires_in":7200,"refresh_token":"9f26ef587492bd9946e2a71e30d0f2f47b4727c80ebe2a9d6b6d6d51988c580c","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1661025970}
+
+08/20/2022 03:06:10 PM pid=12 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+08/20/2022 03:06:10 PM pid=12 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 4c208991edff8d4a8c27203df7767266d37019dae38f157f1f9d458527352d54
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => 9f26ef587492bd9946e2a71e30d0f2f47b4727c80ebe2a9d6b6d6d51988c580c
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1661025970
+)
+
+
+08/20/2022 03:06:11 PM pid=12 msg=sts_keeptruckin::fetch: result = {"companies":[{"company":{"id":10844,"company_id":"KT3393395","name":"Exspeedite","street":"1004 Hillock Street North West","city":"iSANTI","state":"MN","zip":"55040","dot_ids":[],"cycle":"","time_zone":"","exception_24_hour_restart":false,"exception_8_hour_break":false,"exception_wait_time":false,"exception_short_haul":false,"exception_ca_farm_school_bus":false,"exception_adverse_driving":false,"metric_units":false,"minute_logs":false,"subscription_plan":null}}],"pagination":{"per_page":25,"page_no":1,"total":1}}
+
+08/20/2022 03:06:11 PM pid=12 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+08/20/2022 03:06:11 PM pid=12 msg=sts_keeptruckin::fetch: returned 1 records
+
+08/20/2022 06:58:50 PM pid=7 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+08/20/2022 06:58:50 PM pid=7 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 9f26ef587492bd9946e2a71e30d0f2f47b4727c80ebe2a9d6b6d6d51988c580c
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+08/20/2022 06:58:50 PM pid=7 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=9f26ef587492bd9946e2a71e30d0f2f47b4727c80ebe2a9d6b6d6d51988c580c&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+08/20/2022 06:58:50 PM pid=7 msg=sts_keeptruckin::fetch_token: result = {"access_token":"90d0ff64a839a67f1f03755ef23ec4b940499f42fb71c3a4fb207a49bb76f9ec","token_type":"Bearer","expires_in":7200,"refresh_token":"7a9b26111b81996f8a2768fe4e253faf038ce73e9c193d308367e78392bbbb17","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1661039930}
+
+08/20/2022 06:58:50 PM pid=7 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+08/20/2022 06:58:50 PM pid=7 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => 90d0ff64a839a67f1f03755ef23ec4b940499f42fb71c3a4fb207a49bb76f9ec
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => 7a9b26111b81996f8a2768fe4e253faf038ce73e9c193d308367e78392bbbb17
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1661039930
+)
+
+
+08/20/2022 06:58:50 PM pid=7 msg=exp_kt_oauth2.php: Already Authenticated
+
+08/20/2022 06:58:50 PM pid=7 msg=sts_keeptruckin::fetch: url = https://api.keeptruckin.com/v1/companies old_method=false
+
+08/20/2022 06:58:50 PM pid=7 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+08/20/2022 06:58:50 PM pid=7 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 7a9b26111b81996f8a2768fe4e253faf038ce73e9c193d308367e78392bbbb17
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+08/20/2022 06:58:50 PM pid=7 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=7a9b26111b81996f8a2768fe4e253faf038ce73e9c193d308367e78392bbbb17&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+08/20/2022 06:58:51 PM pid=7 msg=sts_keeptruckin::fetch_token: result = {"access_token":"bc760f31ae1bf121267d47fc71cd219cdddd52c1e9c5979504d3432e4c169a57","token_type":"Bearer","expires_in":7200,"refresh_token":"2106b2a304a350b761318d98b6c8675d74bed5424d2e216a0b9206a5cc4e6f4a","scope":"ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs","created_at":1661039931}
+
+08/20/2022 06:58:51 PM pid=7 msg=sts_keeptruckin::fetch_token: http_response_header = 200
+
+08/20/2022 06:58:51 PM pid=7 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [access_token] => bc760f31ae1bf121267d47fc71cd219cdddd52c1e9c5979504d3432e4c169a57
+    [token_type] => Bearer
+    [expires_in] => 7200
+    [refresh_token] => 2106b2a304a350b761318d98b6c8675d74bed5424d2e216a0b9206a5cc4e6f4a
+    [scope] => ifta_reports.trips companies.read vehicles.read users.read inspection_reports.read hos_logs.hos_violation hos_logs.logs
+    [created_at] => 1661039931
+)
+
+
+08/20/2022 06:58:51 PM pid=7 msg=sts_keeptruckin::fetch: result = {"companies":[{"company":{"id":10844,"company_id":"KT3393395","name":"Exspeedite","street":"1004 Hillock Street North West","city":"iSANTI","state":"MN","zip":"55040","dot_ids":[],"cycle":"","time_zone":"","exception_24_hour_restart":false,"exception_8_hour_break":false,"exception_wait_time":false,"exception_short_haul":false,"exception_ca_farm_school_bus":false,"exception_adverse_driving":false,"metric_units":false,"minute_logs":false,"subscription_plan":null}}],"pagination":{"per_page":25,"page_no":1,"total":1}}
+
+08/20/2022 06:58:51 PM pid=7 msg=sts_keeptruckin::fetch: http_response_header = 200
+
+08/20/2022 06:58:51 PM pid=7 msg=sts_keeptruckin::fetch: returned 1 records
+
+08/20/2022 07:00:13 PM pid=8 msg=sts_ifta_rate::view_rates: quarter_year = 4Q2021
+
+03/03/2023 11:00:17 PM pid=7 msg=sts_keeptruckin::fetch_token:  authorization_code = false
+
+03/03/2023 11:00:17 PM pid=7 msg=sts_keeptruckin::fetch_token: data = Array
+(
+    [grant_type] => refresh_token
+    [refresh_token] => 2f1016dd35852f894109bee5c7fdb28eb51afaae16c3540ea5be1144f6b6ac93
+    [redirect_uri] => https://www.exspeedite.com/exp_handle_kt.php
+    [client_id] => 1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc
+    [client_secret] => 31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+)
+
+
+03/03/2023 11:00:17 PM pid=7 msg=sts_keeptruckin::fetch_token: data2 = grant_type=refresh_token&refresh_token=2f1016dd35852f894109bee5c7fdb28eb51afaae16c3540ea5be1144f6b6ac93&redirect_uri=https%3A%2F%2Fwww.exspeedite.com%2Fexp_handle_kt.php&client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&client_secret=31f9d640a86fc51e9dd32a6ee683c34939188488f2d6509ed68776fe8b79ffe1
+
+03/03/2023 11:00:17 PM pid=7 msg=sts_keeptruckin::fetch_token: result = {"error":"invalid_grant","error_description":"The provided authorization grant is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client."}
+
+03/03/2023 11:00:17 PM pid=7 msg=sts_keeptruckin::fetch_token: http_response_header = 401
+
+03/03/2023 11:00:17 PM pid=7 msg=sts_keeptruckin::fetch_token: result = stdClass Object
+(
+    [error] => invalid_grant
+    [error_description] => The provided authorization grant is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client.
+)
+
+
+03/03/2023 11:00:17 PM pid=7 msg=exp_kt_oauth2.php: Failed To Get New Token invalid_grant
+
+03/03/2023 11:00:17 PM pid=7 msg=sts_keeptruckin::authorization_url: return https://keeptruckin.com/oauth/authorize?client_id=1ad655a14d398205d4ad460770047367fca6a3ffae0b7d94b36ac9f2350043dc&redirect_uri=https://www.exspeedite.com/exp_handle_kt.php&response_type=code&scope=ifta_reports.trips+companies.read+vehicles.read+users.read+inspection_reports.read+hos_logs.hos_violation+hos_logs.logs&state=orcloud
+

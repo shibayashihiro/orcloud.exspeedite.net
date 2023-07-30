@@ -1,0 +1,223 @@
+
+11/10/2022 12:13:43 PM pid=8 count=0 log=1 req_time=1668104022 debug=false Subject: Exspeedite Trace Report For Load# 3698
+	From: exspeedite@strongtco.com
+	To: duncan@strongtco.com, selliott@strongtco.com
+	Cc: 
+	Result: success
+
+11/10/2022 12:13:43 PM pid=8 log=2 req_time=1668104022 debug=false Message: sts_email::send_email: return result = true
+
+11/10/2022 12:15:52 PM pid=9 count=0 log=1 req_time=1668104149 debug=false Subject: Attachment test.txt
+	From: Strongtower Test Server (LINUX) <exspeedite@strongtco.com>
+	To: selliott@strongtco.com
+	Cc: Duncan <duncan@strongtco.com>
+	Result: success
+
+11/10/2022 12:53:01 PM pid=7 count=0 log=1 req_time=1668106378 debug=false Subject: Attachment test.txt
+	From: Strongtower Test Server (LINUX) <exspeedite@strongtco.com>
+	To: duncan@strongtco.com
+	Cc: 
+	Result: success
+
+11/10/2022 12:54:28 PM pid=6 count=0 log=1 req_time=1668106465 debug=false Subject: Attachment test.txt
+	From: Strongtower Test Server (LINUX) <exspeedite@strongtco.com>
+	To: duncan@strongtco.com
+	Cc: 
+	Result: success
+
+11/10/2022 12:55:42 PM pid=7 count=0 log=1 req_time=1668106539 debug=false Subject: Attachment test.txt
+	From: Strongtower Test Server (LINUX) <exspeedite@strongtco.com>
+	To: duncan@strongtco.com
+	Cc: 
+	Result: success
+
+11/10/2022 01:09:27 PM pid=11 count=0 log=1 req_time=1668107365 debug=false Subject: Attachment test.txt
+	From: Strongtower Test Server (LINUX) <exspeedite@strongtco.com>
+	To: duncan@strongtco.com
+	Cc: 
+	Result: success
+
+
+
+11/22/2022 11:55:22 AM pid=11 log=1 req_time=1669139722 debug=false Message: exp_spawn_send_email.php: manifestr 3698
+
+11/22/2022 11:55:22 AM pid=11 log=2 req_time=1669139722 debug=false Message: exp_spawn_send_email.php: /usr/bin/php -c /usr/bin -f /var/www/domains/orcloud.exspeedite.net/htdocs/exp_send_email.php subdomain=orcloud pw=Reimer type=manifestr code=3698
+
+11/22/2022 11:55:23 AM pid=24 log=1 req_time=1669139723 debug=false Message: exp_send_email.php: type = manifestr code = 3698
+
+11/22/2022 11:55:23 AM pid=24 log=2 req_time=1669139723 debug=false Message: exp_send_email.php: result = false
+
+11/22/2022 11:58:15 AM pid=7 count=0 log=1 req_time=1669139894 debug=false Subject: Exspeedite Trace Report For Load# 3699
+	From: selliott@strongtco.com
+	To: duncan@strongtco.com, selliott@strongtco.com
+	Cc: 
+	Result: success
+
+11/22/2022 11:58:15 AM pid=7 log=2 req_time=1669139894 debug=false Message: sts_email::send_email: return result = true
+
+11/22/2022 12:46:23 PM pid=10 log=1 req_time=1669142783 debug=false Message: exp_spawn_send_email.php: manifestr 3699
+
+11/22/2022 12:46:23 PM pid=10 log=2 req_time=1669142783 debug=false Message: exp_spawn_send_email.php: /usr/bin/php -c /usr/bin -f /var/www/domains/orcloud.exspeedite.net/htdocs/exp_send_email.php subdomain=orcloud pw=Reimer type=manifestr code=3699
+
+11/22/2022 12:46:23 PM pid=27 log=1 req_time=1669142783 debug=false Message: exp_send_email.php: type = manifestr code = 3699
+
+11/22/2022 12:46:23 PM pid=27 log=2 req_time=1669142783 debug=false Message: exp_send_email.php: result = false
+
+11/22/2022 12:46:29 PM pid=12 count=0 log=1 req_time=1669142788 debug=false Subject: Exspeedite Trace Report For Load# 3699
+	From: selliott@strongtco.com
+	To: duncan@strongtco.com, selliott@strongtco.com
+	Cc: 
+	Result: success
+
+11/22/2022 12:46:29 PM pid=12 log=2 req_time=1669142788 debug=false Message: sts_email::send_email: return result = true
+
+11/28/2022 09:48:09 AM pid=12 count=0 log=1 req_time=1669650488 debug=false Subject: Exspeedite Trace Report For Load# 3699
+	From: selliott@strongtco.com
+	To: duncan@strongtco.com, selliott@strongtco.com
+	Cc: 
+	Result: success
+
+11/28/2022 09:48:09 AM pid=12 log=2 req_time=1669650488 debug=false Message: sts_email::send_email: return result = true
+
+11/28/2022 09:50:32 AM pid=12 log=1 req_time=1669650632 debug=false Message: exp_spawn_send_email.php: manifestr 3699
+
+11/28/2022 09:50:32 AM pid=12 log=2 req_time=1669650632 debug=false Message: exp_spawn_send_email.php: /usr/bin/php -c /usr/bin -f /var/www/domains/orcloud.exspeedite.net/htdocs/exp_send_email.php subdomain=orcloud pw=Reimer type=manifestr code=3699
+
+11/28/2022 09:50:33 AM pid=14 log=1 req_time=1669650632 debug=false Message: exp_send_email.php: type = manifestr code = 3699
+
+11/28/2022 09:50:39 AM pid=14 count=0 log=2 req_time=1669650632 debug=false Subject: Exspeedite: Freight Agreement #AB785 (resend)
+	From: exspeedite@strongtco.com
+	To: selliott@strongtco.com
+	Cc: duncan@strongtco.com, selliott@strongtco.com
+	Result: success
+
+11/28/2022 09:50:39 AM pid=14 log=3 req_time=1669650632 debug=false Message: sts_email::send_email_nobody: return result = true
+
+11/28/2022 09:50:39 AM pid=14 log=4 req_time=1669650632 debug=false Message: sts_email::prepare_and_send_manifest: result = true
+
+11/28/2022 09:50:39 AM pid=14 log=5 req_time=1669650632 debug=false Message: exp_send_email.php: result = true
+
+11/28/2022 09:50:45 AM pid=8 count=0 log=1 req_time=1669650643 debug=false Subject: Exspeedite Trace Report For Load# 3699
+	From: selliott@strongtco.com
+	To: duncan@strongtco.com, selliott@strongtco.com
+	Cc: 
+	Result: success
+
+11/28/2022 09:50:45 AM pid=8 log=2 req_time=1669650643 debug=false Message: sts_email::send_email: return result = true
+
+11/28/2022 09:54:54 AM pid=7 count=0 log=1 req_time=1669650892 debug=false Subject: Exspeedite Trace Report For Load# 3699
+	From: selliott@strongtco.com
+	To: duncan@strongtco.com, selliott@strongtco.com
+	Cc: 
+	Result: success
+
+11/28/2022 09:54:54 AM pid=7 log=2 req_time=1669650892 debug=false Message: sts_email::send_email: return result = true
+
+11/28/2022 12:23:29 PM pid=8 count=0 log=1 req_time=1669659807 debug=false Subject: Exspeedite Trace Report For Load# 3698
+	From: selliott@strongtco.com
+	To: duncan@strongtco.com, selliott@strongtco.com
+	Cc: 
+	Result: success
+
+11/28/2022 12:23:29 PM pid=8 log=2 req_time=1669659807 debug=false Message: sts_email::send_email: return result = true
+
+11/28/2022 12:39:04 PM pid=8 count=0 log=1 req_time=1669660743 debug=false Subject: Exspeedite Trace Report For Load# 3697
+	From: selliott@strongtco.com
+	To: duncan@strongtco.com, selliott@strongtco.com
+	Cc: 
+	Result: success
+
+11/28/2022 12:39:04 PM pid=8 log=2 req_time=1669660743 debug=false Message: sts_email::send_email: return result = true
+
+11/28/2022 12:46:49 PM pid=8 count=0 log=1 req_time=1669661208 debug=false Subject: Exspeedite Trace Report For Load# 3699
+	From: selliott@strongtco.com
+	To: duncan@strongtco.com, selliott@strongtco.com
+	Cc: 
+	Result: success
+
+11/28/2022 12:46:49 PM pid=8 log=2 req_time=1669661208 debug=false Message: sts_email::send_email: return result = true
+
+11/28/2022 12:49:52 PM pid=12 count=0 log=1 req_time=1669661391 debug=false Subject: Exspeedite Trace Report For Load# 3697
+	From: email@exspeedite.net
+	To: email@exspeedite.net
+	Cc: 
+	Result: success
+
+11/28/2022 12:49:52 PM pid=12 log=2 req_time=1669661391 debug=false Message: sts_email::send_email: return result = true
+
+11/28/2022 01:08:08 PM pid=6 count=0 log=1 req_time=1669662482 debug=false Subject: Exspeedite Trace Report For Load# 3674
+	From: email@exspeedite.net
+	To: email@exspeedite.net
+	Cc: 
+	Result: success
+
+11/28/2022 01:08:08 PM pid=6 log=2 req_time=1669662482 debug=false Message: sts_email::send_email: return result = true
+
+11/29/2022 09:26:40 AM pid=7 count=0 log=1 req_time=1669735599 debug=false Subject: Exspeedite Trace Report For Load# 3698
+	From: email@exspeedite.net
+	To: email@exspeedite.net
+	Cc: 
+	Result: success
+
+11/29/2022 09:26:40 AM pid=7 log=2 req_time=1669735599 debug=false Message: sts_email::send_email: return result = true
+
+11/29/2022 10:21:02 AM pid=11 count=0 log=1 req_time=1669738861 debug=false Subject: Exspeedite Trace Report For Load# 3655
+	From: email@exspeedite.net
+	To: email@exspeedite.net
+	Cc: 
+	Result: success
+
+11/29/2022 10:21:02 AM pid=11 log=2 req_time=1669738861 debug=false Message: sts_email::send_email: return result = true
+
+11/29/2022 10:33:33 AM pid=9 count=0 log=1 req_time=1669739612 debug=false Subject: Exspeedite Trace Report For Load# 3697
+	From: email@exspeedite.net
+	To: email@exspeedite.net
+	Cc: 
+	Result: success
+
+11/29/2022 10:33:33 AM pid=9 log=2 req_time=1669739612 debug=false Message: sts_email::send_email: return result = true
+
+11/29/2022 10:36:29 AM pid=10 log=1 req_time=1669739789 debug=false Message: exp_spawn_send_email.php: invoicer 9152
+
+11/29/2022 10:36:29 AM pid=10 log=2 req_time=1669739789 debug=false Message: exp_spawn_send_email.php: /usr/bin/php -c /usr/bin -f /var/www/domains/orcloud.exspeedite.net/htdocs/exp_send_email.php subdomain=orcloud pw=Reimer type=invoicer code=9152
+
+11/29/2022 10:36:30 AM pid=16 log=1 req_time=1669739789 debug=false Message: exp_send_email.php: type = invoicer code = 9152
+
+11/29/2022 10:36:35 AM pid=16 count=0 log=2 req_time=1669739789 debug=false Subject: Invoice# AB257 (resend)
+	From: email@exspeedite.net
+	To: selliott@strongtco.com
+	Cc: email@exspeedite.net
+	Result: success
+
+11/29/2022 10:36:35 AM pid=16 log=3 req_time=1669739789 debug=false Message: sts_email::send_email_nobody: return result = true
+
+11/29/2022 10:36:35 AM pid=16 log=4 req_time=1669739789 debug=false Message: exp_send_email.php: result = true
+
+11/29/2022 10:36:36 AM pid=7 log=1 req_time=1669739795 debug=true Message: exp_send_email.php: type = invoice code = 9152
+
+11/29/2022 10:36:38 AM pid=7 count=1 log=2 req_time=1669739795 debug=true Subject: Invoice# AB257
+	From: email@exspeedite.net
+	To: selliott@strongtco.com
+	Cc: email@exspeedite.net
+	Result: success
+
+11/29/2022 10:36:38 AM pid=7 log=3 req_time=1669739795 debug=true Message: sts_email::send_email_nobody: return result = true
+
+11/29/2022 10:36:38 AM pid=7 log=4 req_time=1669739795 debug=true Message: exp_send_email.php: result = true
+
+11/29/2022 10:42:32 AM pid=10 count=0 log=1 req_time=1669740150 debug=false Subject: Attachment FMS TRUCKING.jpg
+	From: Strongtower Test Server (LINUX) <email@exspeedite.net>
+	To: email@exspeedite.net
+	Cc: Scott Elliott <selliott@strongtco.com>
+	Result: success
+
+11/29/2022 10:42:32 AM pid=10 log=2 req_time=1669740150 debug=false Message: sts_email::send_email: return result = true
+
+07/16/2023 07:18:24 AM pid=6 count=0 log=1 req_time=1689509903 debug=false Subject: Exspeedite Diagnostic Report
+	From: bmservices.trk@exspeedite.net
+	To: email@exspeedite.net
+	Cc: 
+	Result: success
+
+07/16/2023 07:18:24 AM pid=6 log=2 req_time=1689509903 debug=false Message: sts_email::send_email: return result = true
+

@@ -1,0 +1,174 @@
+11/10/2022 01:09:26 PM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:09:26 PM sts_attachment::attachment_exists: test.txt \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt filesanywhere exists
+11/10/2022 01:09:26 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:09:26 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:09:26 PM    sts_files_anywhere::fetch: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:09:26 PM sts_attachment::fetch: duncan code = 755, where = filesanywhere, stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:11:09 PM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:11:09 PM sts_attachment::attachment_exists: test.txt \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt filesanywhere exists
+11/10/2022 01:11:09 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:11:09 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:11:10 PM    sts_files_anywhere::fetch: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:11:10 PM sts_attachment::fetch: duncan code = 755, where = filesanywhere, stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:14:18 PM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:14:18 PM sts_attachment::attachment_exists: test.txt \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt filesanywhere exists
+11/10/2022 01:14:18 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:14:18 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:14:18 PM    sts_files_anywhere::fetch: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:14:18 PM sts_attachment::fetch: duncan code = 755, where = filesanywhere, stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:17:09 PM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:17:09 PM sts_attachment::attachment_exists: test.txt \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt filesanywhere exists
+11/10/2022 01:17:09 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:17:09 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:17:09 PM    sts_files_anywhere::fetch: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:17:09 PM sts_attachment::fetch: duncan code = 755, where = filesanywhere, stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:17:46 PM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:17:46 PM sts_attachment::attachment_exists: test.txt \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt filesanywhere exists
+11/10/2022 01:17:46 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:17:46 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:17:46 PM    sts_files_anywhere::fetch: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:17:46 PM sts_attachment::fetch: duncan code = 755, where = filesanywhere, stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:24:22 PM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:24:22 PM sts_attachment::attachment_exists: test.txt \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt filesanywhere exists
+11/10/2022 01:24:22 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:24:22 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:24:22 PM    sts_files_anywhere::fetch: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:24:22 PM sts_attachment::fetch: duncan code = 755, where = filesanywhere, stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:25:53 PM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:25:53 PM sts_attachment::attachment_exists: test.txt \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt filesanywhere exists
+11/10/2022 01:25:53 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:25:53 PM sts_attachment::origin: type = load code = 3698 file = test.txt stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt
+11/10/2022 01:25:53 PM    sts_files_anywhere::fetch: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/10/2022 01:25:53 PM sts_attachment::fetch: duncan code = 755, where = filesanywhere, stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/22/2022 10:02:20 AM sts_attachment::manifest_attachments: Scott load = 3698
+Attachments = 755
+11/22/2022 10:02:20 AM sts_attachment::render_inline: Scott test.txt \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt filesanywhere
+11/22/2022 10:02:20 AM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\10\EXP2nkcz6ik8v48b.txt, result = true
+11/22/2022 10:03:40 AM sts_attachment::invoice_attachments: Scott shipment = 9220, attachments = NONE
+11/22/2022 11:39:07 AM sts_attachment::invoice_attachments: Scott shipment = 9220, attachments = NONE
+11/28/2022 09:50:36 AM sts_attachment::manifest_attachments:  load = 3699
+Attachments = NONE
+11/29/2022 10:36:16 AM sts_attachment::invoice_attachments: Scott shipment = 9152, attachments = NONE
+11/29/2022 10:36:29 AM sts_attachment::invoice_attachments: Scott shipment = 9152, attachments = NONE
+11/29/2022 10:36:33 AM sts_attachment::invoice_attachments:  shipment = 9152, attachments = NONE
+11/29/2022 10:36:36 AM sts_attachment::invoice_attachments: Scott shipment = 9152, attachments = NONE
+11/29/2022 10:40:39 AM    sts_files_anywhere::dir_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29, result = false error = e1706
+11/29/2022 10:40:39 AM    sts_files_anywhere::mkdir: dir = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29, result = true
+11/29/2022 10:40:40 AM    sts_files_anywhere::dir_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29, result = true
+11/29/2022 10:40:40 AM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXP4rzvshbdt0pxm.jpg, result = false error = 34004: File not found.
+11/29/2022 10:40:52 AM    sts_files_anywhere::dir_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29, result = true
+11/29/2022 10:40:52 AM    sts_files_anywhere::dir_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29, result = true
+11/29/2022 10:40:52 AM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXP0nvru3u11x16x.jpg, result = false error = 34004: File not found.
+11/29/2022 10:40:52 AM    sts_files_anywhere::dir_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29, result = true
+11/29/2022 10:40:52 AM    sts_files_anywhere::dir_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29, result = true
+11/29/2022 10:40:52 AM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg, result = false error = 34004: File not found.
+11/29/2022 10:40:53 AM    sts_files_anywhere::put: tmp_name = /tmp/php4GsP6J, destination = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg, result = true
+11/29/2022 10:40:53 AM sts_attachment::store_attachment: ADD: Scott shipment# 9747 -> FMS TRUCKING.jpg stored in filesanywhere
+11/29/2022 10:41:00 AM sts_attachment::view: Scott FMS TRUCKING.jpg \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg filesanywhere
+11/29/2022 10:41:00 AM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg, result = true
+11/29/2022 10:41:00 AM    sts_files_anywhere::file_size: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg, result = 739762
+11/29/2022 10:41:05 AM    sts_files_anywhere::fetch: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg, result = true
+11/29/2022 10:42:31 AM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg, result = true
+11/29/2022 10:42:31 AM sts_attachment::attachment_exists: FMS TRUCKING.jpg \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg filesanywhere exists
+11/29/2022 10:42:31 AM sts_attachment::origin: type = shipment code = 9747 file = FMS TRUCKING.jpg stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg
+11/29/2022 10:42:31 AM sts_attachment::origin: type = shipment code = 9747 file = FMS TRUCKING.jpg stored_as = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg
+11/29/2022 10:42:50 AM sts_attachment::view: Scott FMS TRUCKING.jpg \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg filesanywhere
+11/29/2022 10:42:50 AM    sts_files_anywhere::file_exists: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg, result = true
+11/29/2022 10:42:50 AM    sts_files_anywhere::file_size: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg, result = 739762
+11/29/2022 10:42:53 AM    sts_files_anywhere::fetch: path = \STRONGTOWER\Exspeedite Attachments\orcloud\2022\11\29\EXPzs3x2l4ffw18h.jpg, result = true
+07/14/2023 11:03:46 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/14/2023 11:03:46 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/15/2023 07:05:15 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/15/2023 07:05:16 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/15/2023 09:20:29 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/15/2023 09:20:29 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/15/2023 12:50:41 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/15/2023 12:50:42 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/15/2023 04:53:23 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/15/2023 04:53:24 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 03:16:15 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 03:16:16 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 07:13:53 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 07:13:53 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 07:18:29 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 07:18:30 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 01:32:07 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 01:32:08 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 07:36:34 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 07:36:35 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 07:36:40 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 07:36:40 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 07:36:55 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 07:36:55 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 07:38:23 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 07:38:24 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 08:19:35 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 08:19:36 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 11:04:16 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 11:04:16 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 11:12:47 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 11:12:47 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 11:15:25 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 11:15:25 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 11:15:32 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 11:15:32 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 11:23:16 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 11:23:16 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 11:24:00 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 11:24:00 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/16/2023 11:24:47 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/16/2023 11:24:47 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/17/2023 08:13:40 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/17/2023 08:13:40 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/17/2023 08:20:41 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/17/2023 08:20:41 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/17/2023 09:04:29 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/17/2023 09:04:29 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/17/2023 09:12:28 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/17/2023 09:12:28 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/17/2023 03:34:59 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/17/2023 03:35:00 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/17/2023 05:21:57 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/17/2023 05:21:58 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/17/2023 05:22:02 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/17/2023 05:22:02 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/17/2023 05:22:02 PM sts_attachment::manifest_attachments: scott load = 4787
+Attachments = NONE
+07/17/2023 05:22:43 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/17/2023 05:22:43 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/18/2023 07:54:11 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/18/2023 07:54:11 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/20/2023 09:58:15 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/20/2023 09:58:16 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/20/2023 11:35:45 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/20/2023 11:35:45 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/20/2023 11:43:24 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/20/2023 11:43:24 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/22/2023 01:54:23 PM    sts_files_anywhere::__construct: connected to filesanywhere
+07/22/2023 01:54:23 PM sts_attachment::try_filesanywhere: filesanywhere Active
+07/28/2023 07:16:38 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/28/2023 07:16:38 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/28/2023 07:18:08 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/28/2023 07:18:08 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/28/2023 07:19:44 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/28/2023 07:19:44 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/28/2023 07:28:25 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/28/2023 07:28:26 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/28/2023 07:39:49 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/28/2023 07:39:49 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/28/2023 08:21:44 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/28/2023 08:21:44 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/28/2023 08:50:48 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/28/2023 08:50:49 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/28/2023 09:32:16 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/28/2023 09:32:17 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/28/2023 09:36:59 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/28/2023 09:36:59 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/28/2023 09:37:34 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/28/2023 09:37:34 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/28/2023 09:37:53 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/28/2023 09:37:53 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/28/2023 10:00:10 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/28/2023 10:00:10 AM sts_attachment::try_filesanywhere: filesanywhere Active
+07/28/2023 11:28:00 AM    sts_files_anywhere::__construct: connected to filesanywhere
+07/28/2023 11:28:00 AM sts_attachment::try_filesanywhere: filesanywhere Active

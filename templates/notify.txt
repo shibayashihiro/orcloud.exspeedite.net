@@ -1,0 +1,286 @@
+<!-- Exspeedite Notify Template v 1.0
+	
+	You can make a copy of this template so it does not get overwritten next release you install.
+	
+	Be sure to change the option email/EMAIL_MANIFEST_TEMPLATE to point to the template you are using.
+	
+	Keywords are inside %% and include
+
+	CURRENT_DATE	- current date mm/dd/yyyy
+	SHIPMENT_CODE	- Shipment number
+	TITLE			- Title
+	SUBTITLE		- Subtitle
+	OFFICE_CONTACT	- Office contact
+	OFFICE_EMAIL	- Office email
+	OFFICE_PHONE	- Office phone
+	PICKUP_APPT		- PICKUP_APPT
+	DELIVERY_APPT	- DELIVERY_APPT
+	REF_NUMBER		- REF_NUMBER
+	PICKUP_NUMBER	- PICKUP_NUMBER
+	CUSTOMER_NUMBER	- CUSTOMER_NUMBER
+	BOL_NUMBER		- Bill Of Lading number
+	STOP_NAME		- STOP_NAME
+	STOP_CITY		- STOP_CITY
+	STOP_STATE		- STOP_STATE
+	STOP_STATUS		- Stop Status
+	STOP_DATE		- Actual date
+
+-->
+
+<style>
+table.border {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid #4d8e31;
+	border-spacing: 0px;
+    border-collapse: separate;
+}
+
+table tr {
+	vertical-align: text-top;
+}
+
+table.border tr td {
+	width: 100%;
+	padding: 4px;
+}
+
+table.noborder {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0px;
+	border-spacing: 0px;
+    border-collapse: separate;
+}
+
+table.noborder thead tr {
+	background-color: #4d8e31;
+	color: #fff;
+}
+
+table.noborder tr th.w33,
+table.noborder tr td.w33 {
+	width: 33%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w50,
+table.noborder tr td.w50 {
+	width: 50%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w25,
+table.noborder tr td.w25 {
+	width: 25%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w20,
+table.noborder tr td.w20 {
+	width: 20%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w15,
+table.noborder tr td.w15 {
+	width: 15%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+table.noborder tr th.w10,
+table.noborder tr td.w10 {
+	width: 10%;
+	table-layout: fixed;
+	padding: 5px;
+}
+
+h2.notify,
+h3.notify {
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+span.manifest {
+	font-size: 24px;
+	line-height: 2;
+	font-weight: 700;
+}
+
+th.text-right,
+td.text-right {
+	text-align: right;
+}
+
+th.text-center,
+td.text-center {
+	text-align: center;
+}
+
+p.invoice_date {
+	text-align: right;
+	padding: 5px;
+}
+
+img.left {
+	float: left;
+}
+
+.hazmat {
+  background-color: #ffff00;
+}
+
+</style>	
+
+<table class="border">
+	<tr>
+		<td>
+<img src="images/demo.png" class="img-responsive center-block">
+<h2 class="notify">%TITLE%</h2>
+<h2 class="notify">PO# %SHIPMENT_CODE%</h2>
+	<br>
+	
+<table class="noborder">
+	<tr>
+		<td class="w15">
+			<strong>Contact:</strong>
+		</td>
+		<td class="w25">
+			%OFFICE_CONTACT%
+		</td>
+		<td class="w15">
+			&nbsp;
+		</td>
+		<td class="w25">
+			&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td class="w15">
+			<strong>Phone:</strong>
+		</td>
+		<td class="w25">
+			%OFFICE_PHONE%
+		</td>
+		<td class="w15">
+			&nbsp;
+		</td>
+		<td class="w25">
+			&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td class="w15">
+			<strong>Email:</strong>
+		</td>
+		<td class="w25">
+			%OFFICE_EMAIL%
+		</td>
+		<td class="w15">
+			&nbsp;
+		</td>
+		<td class="w25">
+			&nbsp;
+		</td>
+	</tr>
+
+	<tr>
+		<td class="w15">
+			<strong>Pickup Appt:</strong>
+		</td>
+		<td class="w25">
+			%PICKUP_APPT%
+		</td>
+		<td class="w15">
+			<strong>Delivery Appt:</strong>
+		</td>
+		<td class="w25">
+			%DELIVERY_APPT%
+		</td>
+	</tr>
+	<tr>
+		<td class="w15">
+			<strong>Customer#:</strong>
+		</td>
+		<td class="w25">
+			%CUSTOMER_NUMBER%
+		</td>
+		<td class="w15">
+			<strong>Reference#:</strong>
+		</td>
+		<td class="w25">
+			%REF_NUMBER%
+		</td>
+	</tr>
+	<tr>
+		<td class="w15">
+			<strong>BOL#:</strong>
+		</td>
+		<td class="w25">
+			%BOL_NUMBER%
+		</td>
+		<td class="w15">
+			<strong>Pickup#:</strong>
+		</td>
+		<td class="w25">
+			%PICKUP_NUMBER%
+		</td>
+	</tr>
+</table>
+
+<h3 class="notify">%SUBTITLE%</h3>
+
+<table class="noborder">
+	<tr>
+		<td class="w25">
+			<strong>Date</strong>
+		</td>
+		<td class="w25">
+			<strong>Name</strong>
+		</td>
+		<td class="w25">
+			<strong>City</strong>
+		</td>
+		<td class="w10">
+			<strong>State</strong>
+		</td>
+		<td class="w15">
+			<strong>Status</strong>
+		</td>
+	</tr>
+	<tr>
+		<td class="w25">
+			%STOP_DATE%
+		</td>
+		<td class="w25">
+			%STOP_NAME%
+		</td>
+		<td class="w25">
+			%STOP_CITY%
+		</td>
+		<td class="w10">
+			%STOP_STATE%
+		</td>
+		<td class="w15">
+			%STOP_STATUS%
+		</td>
+	</tr>
+</table>
+<br>
+<br>&nbsp;
+
+</td>
+</tr>
+</table>
+<br>
+<br>&nbsp;
+<p class="text-small">Sent by Exspeedite TMS</p>
